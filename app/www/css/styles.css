@@ -1606,3 +1606,40 @@ body.modo-pintura #screen { max-width: none; overflow: hidden; padding: 0 !impor
 .pares-grid { flex: 0 0 auto; align-self: stretch; max-height: none;
   height: calc(100vh - 240px); min-height: 260px; }
 @media (max-height: 700px) { .pares-grid { height: calc(100vh - 200px); } }
+
+/* ==========================================================================
+   Tablets de 8-9" en horizontal (alto de ~530 px CSS)
+   ========================================================================== */
+@media (max-height: 560px) {
+  /* inicio de sesion / nombre */
+  .nombre-emoji { font-size: 40px; }
+  .nombre-titulo { font-size: 24px; }
+  .nombre-input { font-size: 22px; padding: 9px 14px; }
+  .nombre-caja { gap: 6px; }
+  .nombre-fila .big-btn { padding: 9px 18px; font-size: 16px; }
+
+  /* menu de juegos */
+  .juego-img { width: 54%; max-width: 92px; }
+  .juego-titulo { font-size: 15px; }
+  .juego-sub { font-size: 11px; }
+  .juego-tarjeta { padding: 4px; gap: 0; }
+
+  /* lanzador */
+  .lanzador-img { width: 40%; max-width: 96px; }
+  .lanzador-titulo { font-size: 19px; }
+  .lanzador-sub { font-size: 12px; }
+
+  /* pantallas con nivel y unidad */
+  .card .emoji { width: 48px; height: 48px; font-size: 30px; }
+  .card .title { font-size: 17px; }
+  .card .sub { font-size: 13px; }
+  .card-portada { width: 56px; height: 56px; }
+
+  /* memoramas y bingos de nivel */
+  .memo-mazo-img { max-width: 92px; min-width: 60px; }
+  .memo-mazo-titulo { font-size: 15px; }
+  .memo-mazo-sub { font-size: 11px; }
+  .nivel-portada { max-width: 84px; min-width: 56px; }
+  .bingo-nivel-titulo { font-size: 17px; }
+  .bingo-nivel-sub { font-size: 11px; }
+}
