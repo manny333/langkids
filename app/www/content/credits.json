@@ -1,0 +1,2202 @@
+{
+ "imagenes": {
+  "April": {
+   "archivo": "assets/img/april.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "april.png",
+   "nota": "ilustración individual"
+  },
+  "August": {
+   "archivo": "assets/img/august.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "august.png",
+   "nota": "ilustración individual"
+  },
+  "Brazil": {
+   "archivo": "assets/img/brazil.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "brazil_carnival.png",
+   "nota": "ilustración individual"
+  },
+  "England": {
+   "archivo": "assets/img/england.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "england_booth.png",
+   "nota": "ilustración individual"
+  },
+  "February": {
+   "archivo": "assets/img/february.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "february.png",
+   "nota": "ilustración individual"
+  },
+  "France": {
+   "archivo": "assets/img/france.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "france_eiffel.png",
+   "nota": "ilustración individual"
+  },
+  "Italy": {
+   "archivo": "assets/img/italy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "italy_tower_pizza.png",
+   "nota": "ilustración individual"
+  },
+  "January": {
+   "archivo": "assets/img/january.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "january.png",
+   "nota": "ilustración individual"
+  },
+  "Japan": {
+   "archivo": "assets/img/japan.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fuji_blossoms.png",
+   "nota": "ilustración individual"
+  },
+  "July": {
+   "archivo": "assets/img/july.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "july.png",
+   "nota": "ilustración individual"
+  },
+  "June": {
+   "archivo": "assets/img/june.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "june.png",
+   "nota": "ilustración individual"
+  },
+  "March": {
+   "archivo": "assets/img/march.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "march.png",
+   "nota": "ilustración individual"
+  },
+  "May": {
+   "archivo": "assets/img/may.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "may.png",
+   "nota": "ilustración individual"
+  },
+  "Monday-Sunday": {
+   "archivo": "assets/img/monday-sunday.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "weekly_calendar.png",
+   "nota": "ilustración individual"
+  },
+  "November": {
+   "archivo": "assets/img/november.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "november.png",
+   "nota": "ilustración individual"
+  },
+  "October": {
+   "archivo": "assets/img/october.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "october.png",
+   "nota": "ilustración individual"
+  },
+  "September": {
+   "archivo": "assets/img/september.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "september.png",
+   "nota": "ilustración individual"
+  },
+  "Spain": {
+   "archivo": "assets/img/spain.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "spain_fan_guitar.png",
+   "nota": "ilustración individual"
+  },
+  "T-shirt": {
+   "archivo": "assets/img/t-shirt.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "t-shirt.png",
+   "nota": "ilustración individual"
+  },
+  "acting": {
+   "archivo": "assets/img/acting.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "acting_masks.png",
+   "nota": "ilustración individual"
+  },
+  "afternoon": {
+   "archivo": "assets/img/afternoon.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "afternoon.png",
+   "nota": "ilustración individual"
+  },
+  "age": {
+   "archivo": "assets/img/age.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "age.png",
+   "nota": "ilustración individual"
+  },
+  "alphabet": {
+   "archivo": "assets/img/alphabet.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "alphabet_blocks.png",
+   "nota": "ilustración individual"
+  },
+  "angry": {
+   "archivo": "assets/img/angry.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "angry.png",
+   "nota": "ilustración individual"
+  },
+  "apple": {
+   "archivo": "assets/img/apple.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "apple.png",
+   "nota": "ilustración individual"
+  },
+  "arms": {
+   "archivo": "assets/img/arms.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "arm_muscle_left.png",
+   "nota": "ilustración individual"
+  },
+  "ate": {
+   "archivo": "assets/img/ate.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ate_apple.png",
+   "nota": "ilustración individual"
+  },
+  "autumn": {
+   "archivo": "assets/img/autumn.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "autumn_leaf.png",
+   "nota": "ilustración individual"
+  },
+  "baby": {
+   "archivo": "assets/img/baby.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "baby.png",
+   "nota": "ilustración individual"
+  },
+  "bag": {
+   "archivo": "assets/img/bag.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "backpack_blue.png",
+   "nota": "ilustración individual"
+  },
+  "ball": {
+   "archivo": "assets/img/ball.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ball.png",
+   "nota": "ilustración individual"
+  },
+  "balloon": {
+   "archivo": "assets/img/balloon.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "balloon.png",
+   "nota": "ilustración individual"
+  },
+  "banana": {
+   "archivo": "assets/img/banana.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "banana.png",
+   "nota": "ilustración individual"
+  },
+  "bank": {
+   "archivo": "assets/img/bank.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bank.png",
+   "nota": "ilustración individual"
+  },
+  "basketball": {
+   "archivo": "assets/img/basketball.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "basketball_ball.png",
+   "nota": "ilustración individual"
+  },
+  "bathroom": {
+   "archivo": "assets/img/bathroom.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bathroom_bathtub.png",
+   "nota": "ilustración individual"
+  },
+  "bear": {
+   "archivo": "assets/img/bear.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bear.png",
+   "nota": "ilustración individual"
+  },
+  "beard": {
+   "archivo": "assets/img/beard.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "beard_moustache.png",
+   "nota": "ilustración individual"
+  },
+  "beautiful": {
+   "archivo": "assets/img/beautiful.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "beautiful_flower.png",
+   "nota": "ilustración individual"
+  },
+  "bed": {
+   "archivo": "assets/img/bed.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bed.png",
+   "nota": "ilustración individual"
+  },
+  "bedroom": {
+   "archivo": "assets/img/bedroom.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bedroom.png",
+   "nota": "ilustración individual"
+  },
+  "behind": {
+   "archivo": "assets/img/behind.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "behind.png",
+   "nota": "ilustración individual"
+  },
+  "between": {
+   "archivo": "assets/img/between.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "between.png",
+   "nota": "ilustración individual"
+  },
+  "big": {
+   "archivo": "assets/img/big.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "big.png",
+   "nota": "ilustración individual"
+  },
+  "bike": {
+   "archivo": "assets/img/bike.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bicycle.png",
+   "nota": "ilustración individual"
+  },
+  "bird": {
+   "archivo": "assets/img/bird.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bird.png",
+   "nota": "ilustración individual"
+  },
+  "birthday": {
+   "archivo": "assets/img/birthday.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "birthday_cake.png",
+   "nota": "ilustración individual"
+  },
+  "birthday party": {
+   "archivo": "assets/img/birthday-party.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "birthday_party.png",
+   "nota": "ilustración individual"
+  },
+  "black": {
+   "archivo": "assets/img/black.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "black_hexagon.png",
+   "nota": "ilustración individual"
+  },
+  "blocks": {
+   "archivo": "assets/img/blocks.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "blocks_castle.png",
+   "nota": "ilustración individual"
+  },
+  "blue": {
+   "archivo": "assets/img/blue.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "blue_star.png",
+   "nota": "ilustración individual"
+  },
+  "board": {
+   "archivo": "assets/img/board.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "board_clean.png",
+   "nota": "ilustración individual"
+  },
+  "boat": {
+   "archivo": "assets/img/boat.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "boat.png",
+   "nota": "ilustración individual"
+  },
+  "book": {
+   "archivo": "assets/img/book.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "book_red.png",
+   "nota": "ilustración individual"
+  },
+  "boy": {
+   "archivo": "assets/img/boy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "boy_head.png",
+   "nota": "ilustración individual"
+  },
+  "brave": {
+   "archivo": "assets/img/brave.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "brave.png",
+   "nota": "ilustración individual"
+  },
+  "bread": {
+   "archivo": "assets/img/bread.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bread.png",
+   "nota": "ilustración individual"
+  },
+  "brother": {
+   "archivo": "assets/img/brother.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "brother.png",
+   "nota": "ilustración individual"
+  },
+  "brown": {
+   "archivo": "assets/img/brown.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "brown_pentagon.png",
+   "nota": "ilustración individual"
+  },
+  "bus": {
+   "archivo": "assets/img/bus.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "bus.png",
+   "nota": "ilustración individual"
+  },
+  "buy": {
+   "archivo": "assets/img/buy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "buy_shopping.png",
+   "nota": "ilustración individual"
+  },
+  "café": {
+   "archivo": "assets/img/cafe.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cafe.png",
+   "nota": "ilustración individual"
+  },
+  "cake": {
+   "archivo": "assets/img/cake.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cake.png",
+   "nota": "ilustración individual"
+  },
+  "capital": {
+   "archivo": "assets/img/capital.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "capital_city.png",
+   "nota": "ilustración individual"
+  },
+  "car": {
+   "archivo": "assets/img/car.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "car.png",
+   "nota": "ilustración individual"
+  },
+  "cat": {
+   "archivo": "assets/img/cat.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cat.png",
+   "nota": "ilustración individual"
+  },
+  "chair": {
+   "archivo": "assets/img/chair.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "chair.png",
+   "nota": "ilustración individual"
+  },
+  "character": {
+   "archivo": "assets/img/character.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "character_hero.png",
+   "nota": "ilustración individual"
+  },
+  "cheese": {
+   "archivo": "assets/img/cheese.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cheese.png",
+   "nota": "ilustración individual"
+  },
+  "chicken": {
+   "archivo": "assets/img/chicken.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "chicken.png",
+   "nota": "ilustración individual"
+  },
+  "cinema": {
+   "archivo": "assets/img/cinema.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cinema.png",
+   "nota": "ilustración individual"
+  },
+  "cleaned": {
+   "archivo": "assets/img/cleaned.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cleaned_broom.png",
+   "nota": "ilustración individual"
+  },
+  "clever": {
+   "archivo": "assets/img/clever.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "clever.png",
+   "nota": "ilustración individual"
+  },
+  "climb": {
+   "archivo": "assets/img/climb.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "climb.png",
+   "nota": "ilustración individual"
+  },
+  "cloudy": {
+   "archivo": "assets/img/cloudy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cloudy.png",
+   "nota": "ilustración individual"
+  },
+  "cold": {
+   "archivo": "assets/img/cold.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cold.png",
+   "nota": "ilustración individual"
+  },
+  "continent": {
+   "archivo": "assets/img/continent.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "globe_map.png",
+   "nota": "ilustración individual"
+  },
+  "cook": {
+   "archivo": "assets/img/cook.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cook.png",
+   "nota": "ilustración individual"
+  },
+  "cooked": {
+   "archivo": "assets/img/cooked.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cooked_pot.png",
+   "nota": "ilustración individual"
+  },
+  "cooking": {
+   "archivo": "assets/img/cooking.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cooking.png",
+   "nota": "ilustración individual"
+  },
+  "cool": {
+   "archivo": "assets/img/cool.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cool_fan.png",
+   "nota": "ilustración individual"
+  },
+  "count": {
+   "archivo": "assets/img/count.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "abacus_count.png",
+   "nota": "ilustración individual"
+  },
+  "country": {
+   "archivo": "assets/img/country.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "country_landscape.png",
+   "nota": "ilustración individual"
+  },
+  "cow": {
+   "archivo": "assets/img/cow.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "cow.png",
+   "nota": "ilustración individual"
+  },
+  "crayon": {
+   "archivo": "assets/img/crayon.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "crayons_box.png",
+   "nota": "ilustración individual"
+  },
+  "crocodile": {
+   "archivo": "assets/img/crocodile.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "crocodile.png",
+   "nota": "ilustración individual"
+  },
+  "curly": {
+   "archivo": "assets/img/curly.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "curly.png",
+   "nota": "ilustración individual"
+  },
+  "daddy": {
+   "archivo": "assets/img/daddy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "daddy.png",
+   "nota": "ilustración individual"
+  },
+  "dance": {
+   "archivo": "assets/img/dance.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dance.png",
+   "nota": "ilustración individual"
+  },
+  "dancing": {
+   "archivo": "assets/img/dancing.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dancing.png",
+   "nota": "ilustración individual"
+  },
+  "dark": {
+   "archivo": "assets/img/dark.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dark.png",
+   "nota": "ilustración individual"
+  },
+  "desert": {
+   "archivo": "assets/img/desert.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "desert_dune.png",
+   "nota": "ilustración individual"
+  },
+  "desk": {
+   "archivo": "assets/img/desk.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "desk.png",
+   "nota": "ilustración individual"
+  },
+  "do homework": {
+   "archivo": "assets/img/do-homework.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "do_homework.png",
+   "nota": "ilustración individual"
+  },
+  "dog": {
+   "archivo": "assets/img/dog.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dog.png",
+   "nota": "ilustración individual"
+  },
+  "doll": {
+   "archivo": "assets/img/doll.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "doll.png",
+   "nota": "ilustración individual"
+  },
+  "don't like": {
+   "archivo": "assets/img/dont-like.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dont_like.png",
+   "nota": "ilustración individual"
+  },
+  "door": {
+   "archivo": "assets/img/door.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "door.png",
+   "nota": "ilustración individual"
+  },
+  "drank": {
+   "archivo": "assets/img/drank.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "drank_water.png",
+   "nota": "ilustración individual"
+  },
+  "draw": {
+   "archivo": "assets/img/draw.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "draw.png",
+   "nota": "ilustración individual"
+  },
+  "drawing": {
+   "archivo": "assets/img/drawing.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "drawing.png",
+   "nota": "ilustración individual"
+  },
+  "dress": {
+   "archivo": "assets/img/dress.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dress.png",
+   "nota": "ilustración individual"
+  },
+  "duck": {
+   "archivo": "assets/img/duck.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "duck.png",
+   "nota": "ilustración individual"
+  },
+  "ears": {
+   "archivo": "assets/img/ears.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ears.png",
+   "nota": "ilustración individual"
+  },
+  "egg": {
+   "archivo": "assets/img/egg.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "egg.png",
+   "nota": "ilustración individual"
+  },
+  "eight": {
+   "archivo": "assets/img/eight.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "eight_8.png",
+   "nota": "ilustración individual"
+  },
+  "elephant": {
+   "archivo": "assets/img/elephant.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "elephant.png",
+   "nota": "ilustración individual"
+  },
+  "evening": {
+   "archivo": "assets/img/evening.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "evening.png",
+   "nota": "ilustración individual"
+  },
+  "eyes": {
+   "archivo": "assets/img/eyes.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "eyes.png",
+   "nota": "ilustración individual"
+  },
+  "fair": {
+   "archivo": "assets/img/fair.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fair.png",
+   "nota": "ilustración individual"
+  },
+  "family": {
+   "archivo": "assets/img/family.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "big_family.png",
+   "nota": "ilustración individual"
+  },
+  "fast": {
+   "archivo": "assets/img/fast.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fast.png",
+   "nota": "ilustración individual"
+  },
+  "favorite": {
+   "archivo": "assets/img/favorite.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "favorite_hobby.png",
+   "nota": "ilustración individual"
+  },
+  "feet": {
+   "archivo": "assets/img/feet.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "feet.png",
+   "nota": "ilustración individual"
+  },
+  "fine": {
+   "archivo": "assets/img/fine.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fine_of_course.png",
+   "nota": "ilustración individual"
+  },
+  "fish": {
+   "archivo": "assets/img/fish.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fish.png",
+   "nota": "ilustración individual"
+  },
+  "five": {
+   "archivo": "assets/img/five.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "five_5.png",
+   "nota": "ilustración individual"
+  },
+  "fly": {
+   "archivo": "assets/img/fly.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "fly.png",
+   "nota": "ilustración individual"
+  },
+  "foggy": {
+   "archivo": "assets/img/foggy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "foggy_mist.png",
+   "nota": "ilustración individual"
+  },
+  "football": {
+   "archivo": "assets/img/football.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "football_ball.png",
+   "nota": "ilustración individual"
+  },
+  "four": {
+   "archivo": "assets/img/four.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "four_4.png",
+   "nota": "ilustración individual"
+  },
+  "free time": {
+   "archivo": "assets/img/free-time.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "free_time_clock.png",
+   "nota": "ilustración individual"
+  },
+  "fridge": {
+   "archivo": "assets/img/fridge.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "refrigerator.png",
+   "nota": "ilustración individual"
+  },
+  "friend": {
+   "archivo": "assets/img/friend.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "friends_hugging.png",
+   "nota": "ilustración individual"
+  },
+  "friendly": {
+   "archivo": "assets/img/friendly.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "friendly.png",
+   "nota": "ilustración individual"
+  },
+  "funny": {
+   "archivo": "assets/img/funny.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "funny.png",
+   "nota": "ilustración individual"
+  },
+  "garden": {
+   "archivo": "assets/img/garden.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "garden_flowers.png",
+   "nota": "ilustración individual"
+  },
+  "gave": {
+   "archivo": "assets/img/gave.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "gave_present.png",
+   "nota": "ilustración individual"
+  },
+  "get dressed": {
+   "archivo": "assets/img/get-dressed.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "get_dressed_shirt.png",
+   "nota": "ilustración individual"
+  },
+  "get up": {
+   "archivo": "assets/img/get-up.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "get_up_bed.png",
+   "nota": "ilustración individual"
+  },
+  "giraffe": {
+   "archivo": "assets/img/giraffe.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "giraffe.png",
+   "nota": "ilustración individual"
+  },
+  "girl": {
+   "archivo": "assets/img/girl.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "girl_hair.png",
+   "nota": "ilustración individual"
+  },
+  "glasses": {
+   "archivo": "assets/img/glasses.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "glasses.png",
+   "nota": "ilustración individual"
+  },
+  "go straight": {
+   "archivo": "assets/img/go-straight.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "arrow_straight_up.png",
+   "nota": "ilustración individual"
+  },
+  "go to bed": {
+   "archivo": "assets/img/go-to-bed.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "go_to_bed.png",
+   "nota": "ilustración individual"
+  },
+  "go to school": {
+   "archivo": "assets/img/go-to-school.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "go_to_school.png",
+   "nota": "ilustración individual"
+  },
+  "good afternoon": {
+   "archivo": "assets/img/good-afternoon.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "good_afternoon.png",
+   "nota": "ilustración individual"
+  },
+  "good morning": {
+   "archivo": "assets/img/good-morning.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "good_morning.png",
+   "nota": "ilustración individual"
+  },
+  "goodbye": {
+   "archivo": "assets/img/goodbye.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "goodbye.png",
+   "nota": "ilustración individual"
+  },
+  "grandma": {
+   "archivo": "assets/img/grandma.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "grandma.png",
+   "nota": "ilustración individual"
+  },
+  "grandpa": {
+   "archivo": "assets/img/grandpa.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "grandfather_cane.png",
+   "nota": "ilustración individual"
+  },
+  "grapes": {
+   "archivo": "assets/img/grapes.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "grapes.png",
+   "nota": "ilustración individual"
+  },
+  "green": {
+   "archivo": "assets/img/green.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "green_square.png",
+   "nota": "ilustración individual"
+  },
+  "had": {
+   "archivo": "assets/img/had.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "had_gift.png",
+   "nota": "ilustración individual"
+  },
+  "hair": {
+   "archivo": "assets/img/hair.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hair.png",
+   "nota": "ilustración individual"
+  },
+  "half past": {
+   "archivo": "assets/img/half-past.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "half_past.png",
+   "nota": "ilustración individual"
+  },
+  "hands": {
+   "archivo": "assets/img/hands.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hands_clapping.png",
+   "nota": "ilustración individual"
+  },
+  "happy": {
+   "archivo": "assets/img/happy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "happy.png",
+   "nota": "ilustración individual"
+  },
+  "happy ending": {
+   "archivo": "assets/img/happy-ending.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "happy_ending.png",
+   "nota": "ilustración individual"
+  },
+  "hat": {
+   "archivo": "assets/img/hat.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hat.png",
+   "nota": "ilustración individual"
+  },
+  "have breakfast": {
+   "archivo": "assets/img/have-breakfast.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "have_breakfast.png",
+   "nota": "ilustración individual"
+  },
+  "have dinner": {
+   "archivo": "assets/img/have-dinner.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "have_dinner_soup.png",
+   "nota": "ilustración individual"
+  },
+  "have lunch": {
+   "archivo": "assets/img/have-lunch.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "have_lunchbox.png",
+   "nota": "ilustración individual"
+  },
+  "heavier": {
+   "archivo": "assets/img/heavier.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "heavier.png",
+   "nota": "ilustración individual"
+  },
+  "hello": {
+   "archivo": "assets/img/hello.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hello_hi.png",
+   "nota": "ilustración individual"
+  },
+  "help": {
+   "archivo": "assets/img/help.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "help_person.png",
+   "nota": "ilustración individual"
+  },
+  "hero": {
+   "archivo": "assets/img/hero.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hero.png",
+   "nota": "ilustración individual"
+  },
+  "holiday": {
+   "archivo": "assets/img/holiday.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "holiday_drink.png",
+   "nota": "ilustración individual"
+  },
+  "horse": {
+   "archivo": "assets/img/horse.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "horse.png",
+   "nota": "ilustración individual"
+  },
+  "hospital": {
+   "archivo": "assets/img/hospital.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hospital.png",
+   "nota": "ilustración individual"
+  },
+  "hot": {
+   "archivo": "assets/img/hot.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hot.png",
+   "nota": "ilustración individual"
+  },
+  "house": {
+   "archivo": "assets/img/house.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "house.png",
+   "nota": "ilustración individual"
+  },
+  "hungry": {
+   "archivo": "assets/img/hungry.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "hungry.png",
+   "nota": "ilustración individual"
+  },
+  "ice cream": {
+   "archivo": "assets/img/ice-cream.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ice_cream.png",
+   "nota": "ilustración individual"
+  },
+  "idea": {
+   "archivo": "assets/img/idea.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "idea_lightbulb.png",
+   "nota": "ilustración individual"
+  },
+  "in": {
+   "archivo": "assets/img/in.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "in.png",
+   "nota": "ilustración individual"
+  },
+  "in front of": {
+   "archivo": "assets/img/in-front-of.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "in_front_of.png",
+   "nota": "ilustración individual"
+  },
+  "invitation": {
+   "archivo": "assets/img/invitation.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "invitation_card.png",
+   "nota": "ilustración individual"
+  },
+  "jacket": {
+   "archivo": "assets/img/jacket.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "jacket.png",
+   "nota": "ilustración individual"
+  },
+  "juice": {
+   "archivo": "assets/img/juice.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "lime_juice.png",
+   "nota": "ilustración individual"
+  },
+  "jump": {
+   "archivo": "assets/img/jump.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "jump.png",
+   "nota": "ilustración individual"
+  },
+  "jungle": {
+   "archivo": "assets/img/jungle.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "jungle_tree.png",
+   "nota": "ilustración individual"
+  },
+  "kind": {
+   "archivo": "assets/img/kind.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "kind.png",
+   "nota": "ilustración individual"
+  },
+  "kitchen": {
+   "archivo": "assets/img/kitchen.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "kitchen_stove.png",
+   "nota": "ilustración individual"
+  },
+  "kite": {
+   "archivo": "assets/img/kite.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "kite.png",
+   "nota": "ilustración individual"
+  },
+  "legs": {
+   "archivo": "assets/img/legs.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "legs_running.png",
+   "nota": "ilustración individual"
+  },
+  "library": {
+   "archivo": "assets/img/library.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "library.png",
+   "nota": "ilustración individual"
+  },
+  "lighter": {
+   "archivo": "assets/img/lighter.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "light.png",
+   "nota": "ilustración individual"
+  },
+  "like": {
+   "archivo": "assets/img/like.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "like_love.png",
+   "nota": "ilustración individual"
+  },
+  "lion": {
+   "archivo": "assets/img/lion.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "lion.png",
+   "nota": "ilustración individual"
+  },
+  "living room": {
+   "archivo": "assets/img/living-room.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "living_room_sofa.png",
+   "nota": "ilustración individual"
+  },
+  "long": {
+   "archivo": "assets/img/long.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "long.png",
+   "nota": "ilustración individual"
+  },
+  "made": {
+   "archivo": "assets/img/made.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "made_craft.png",
+   "nota": "ilustración individual"
+  },
+  "meet": {
+   "archivo": "assets/img/meet.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "meet_friends.png",
+   "nota": "ilustración individual"
+  },
+  "middle": {
+   "archivo": "assets/img/middle.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "target_middle.png",
+   "nota": "ilustración individual"
+  },
+  "milk": {
+   "archivo": "assets/img/milk.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "milk.png",
+   "nota": "ilustración individual"
+  },
+  "monkey": {
+   "archivo": "assets/img/monkey.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "monkey.png",
+   "nota": "ilustración individual"
+  },
+  "month": {
+   "archivo": "assets/img/month.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "month_calendar.png",
+   "nota": "ilustración individual"
+  },
+  "morning": {
+   "archivo": "assets/img/morning.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "morning.png",
+   "nota": "ilustración individual"
+  },
+  "mountain": {
+   "archivo": "assets/img/mountain.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "mountain.png",
+   "nota": "ilustración individual"
+  },
+  "moustache": {
+   "archivo": "assets/img/moustache.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "moustache.png",
+   "nota": "ilustración individual"
+  },
+  "mouth": {
+   "archivo": "assets/img/mouth.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "open_mouth.png",
+   "nota": "ilustración individual"
+  },
+  "mummy": {
+   "archivo": "assets/img/mummy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "mummy.png",
+   "nota": "ilustración individual"
+  },
+  "museum": {
+   "archivo": "assets/img/museum.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "museum.png",
+   "nota": "ilustración individual"
+  },
+  "nationality": {
+   "archivo": "assets/img/nationality.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "flags_countries.png",
+   "nota": "ilustración individual"
+  },
+  "next to": {
+   "archivo": "assets/img/next-to.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "next_to.png",
+   "nota": "ilustración individual"
+  },
+  "night": {
+   "archivo": "assets/img/night.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "night.png",
+   "nota": "ilustración individual"
+  },
+  "nine": {
+   "archivo": "assets/img/nine.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "nine_9.png",
+   "nota": "ilustración individual"
+  },
+  "nose": {
+   "archivo": "assets/img/nose.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "nose_mouth.png",
+   "nota": "ilustración individual"
+  },
+  "notebook": {
+   "archivo": "assets/img/notebook.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "notebook.png",
+   "nota": "ilustración individual"
+  },
+  "o'clock": {
+   "archivo": "assets/img/oclock.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "oclock.png",
+   "nota": "ilustración individual"
+  },
+  "ocean": {
+   "archivo": "assets/img/ocean.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ocean_wave.png",
+   "nota": "ilustración individual"
+  },
+  "on": {
+   "archivo": "assets/img/on.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "on.png",
+   "nota": "ilustración individual"
+  },
+  "once upon a time": {
+   "archivo": "assets/img/once-upon-a-time.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "once_upon_a_time.png",
+   "nota": "ilustración individual"
+  },
+  "one": {
+   "archivo": "assets/img/one.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "one_1.png",
+   "nota": "ilustración individual"
+  },
+  "opposite": {
+   "archivo": "assets/img/opposite.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "arrows_opposite.png",
+   "nota": "ilustración individual"
+  },
+  "orange": {
+   "archivo": "assets/img/orange.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "orange.png",
+   "nota": "ilustración individual"
+  },
+  "paint": {
+   "archivo": "assets/img/paint.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "paint.png",
+   "nota": "ilustración individual"
+  },
+  "painting": {
+   "archivo": "assets/img/painting.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "painting.png",
+   "nota": "ilustración individual"
+  },
+  "park": {
+   "archivo": "assets/img/park.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "park.png",
+   "nota": "ilustración individual"
+  },
+  "party": {
+   "archivo": "assets/img/party.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "party_balloons.png",
+   "nota": "ilustración individual"
+  },
+  "pen": {
+   "archivo": "assets/img/pen.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "pen.png",
+   "nota": "ilustración individual"
+  },
+  "pencil": {
+   "archivo": "assets/img/pencil.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "pencil.png",
+   "nota": "ilustración individual"
+  },
+  "penguin": {
+   "archivo": "assets/img/penguin.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "penguin.png",
+   "nota": "ilustración individual"
+  },
+  "pig": {
+   "archivo": "assets/img/pig.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "pig.png",
+   "nota": "ilustración individual"
+  },
+  "pink": {
+   "archivo": "assets/img/pink.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "pink_flower.png",
+   "nota": "ilustración individual"
+  },
+  "plan": {
+   "archivo": "assets/img/plan.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "plan_project.png",
+   "nota": "ilustración individual"
+  },
+  "plane": {
+   "archivo": "assets/img/plane.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "airplane.png",
+   "nota": "ilustración individual"
+  },
+  "play": {
+   "archivo": "assets/img/play.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "play.png",
+   "nota": "ilustración individual"
+  },
+  "played": {
+   "archivo": "assets/img/played.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "played_football.png",
+   "nota": "ilustración individual"
+  },
+  "please": {
+   "archivo": "assets/img/please.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "please.png",
+   "nota": "ilustración individual"
+  },
+  "population": {
+   "archivo": "assets/img/population.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "children_population.png",
+   "nota": "ilustración individual"
+  },
+  "purple": {
+   "archivo": "assets/img/purple.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "purple_diamond.png",
+   "nota": "ilustración individual"
+  },
+  "rabbit": {
+   "archivo": "assets/img/rabbit.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "rabbit.png",
+   "nota": "ilustración individual"
+  },
+  "rainy": {
+   "archivo": "assets/img/rainy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "rainy_cloud.png",
+   "nota": "ilustración individual"
+  },
+  "read": {
+   "archivo": "assets/img/read.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "read.png",
+   "nota": "ilustración individual"
+  },
+  "reading": {
+   "archivo": "assets/img/reading.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "reading.png",
+   "nota": "ilustración individual"
+  },
+  "red": {
+   "archivo": "assets/img/red.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "red_circle.png",
+   "nota": "ilustración individual"
+  },
+  "rice": {
+   "archivo": "assets/img/rice.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "rice.png",
+   "nota": "ilustración individual"
+  },
+  "ride": {
+   "archivo": "assets/img/ride.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ride_cycling.png",
+   "nota": "ilustración individual"
+  },
+  "ruler": {
+   "archivo": "assets/img/ruler.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "ruler.png",
+   "nota": "ilustración individual"
+  },
+  "run": {
+   "archivo": "assets/img/run.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "run.png",
+   "nota": "ilustración individual"
+  },
+  "sad": {
+   "archivo": "assets/img/sad.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sad.png",
+   "nota": "ilustración individual"
+  },
+  "salad": {
+   "archivo": "assets/img/salad.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "salad.png",
+   "nota": "ilustración individual"
+  },
+  "saw": {
+   "archivo": "assets/img/saw.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "saw_eye.png",
+   "nota": "ilustración individual"
+  },
+  "school": {
+   "archivo": "assets/img/school.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "school.png",
+   "nota": "ilustración individual"
+  },
+  "scissors": {
+   "archivo": "assets/img/scissors.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "scissors.png",
+   "nota": "ilustración individual"
+  },
+  "seven": {
+   "archivo": "assets/img/seven.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "seven_7.png",
+   "nota": "ilustración individual"
+  },
+  "sheep": {
+   "archivo": "assets/img/sheep.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sheep.png",
+   "nota": "ilustración individual"
+  },
+  "shoes": {
+   "archivo": "assets/img/shoes.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "shoes.png",
+   "nota": "ilustración individual"
+  },
+  "shop": {
+   "archivo": "assets/img/shop.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "retail_shop.png",
+   "nota": "ilustración individual"
+  },
+  "short": {
+   "archivo": "assets/img/short.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "short.png",
+   "nota": "ilustración individual"
+  },
+  "shorts": {
+   "archivo": "assets/img/shorts.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "shorts.png",
+   "nota": "ilustración individual"
+  },
+  "shy": {
+   "archivo": "assets/img/shy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "shy.png",
+   "nota": "ilustración individual"
+  },
+  "sing": {
+   "archivo": "assets/img/sing.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sing.png",
+   "nota": "ilustración individual"
+  },
+  "singing": {
+   "archivo": "assets/img/singing.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "singing.png",
+   "nota": "ilustración individual"
+  },
+  "sister": {
+   "archivo": "assets/img/sister.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sister_pigtails.png",
+   "nota": "ilustración individual"
+  },
+  "six": {
+   "archivo": "assets/img/six.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "six_6.png",
+   "nota": "ilustración individual"
+  },
+  "skirt": {
+   "archivo": "assets/img/skirt.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "skirt.png",
+   "nota": "ilustración individual"
+  },
+  "sleepy": {
+   "archivo": "assets/img/sleepy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sleepy.png",
+   "nota": "ilustración individual"
+  },
+  "slow": {
+   "archivo": "assets/img/slow.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "slow.png",
+   "nota": "ilustración individual"
+  },
+  "small": {
+   "archivo": "assets/img/small.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "small.png",
+   "nota": "ilustración individual"
+  },
+  "smile": {
+   "archivo": "assets/img/smile.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "smile.png",
+   "nota": "ilustración individual"
+  },
+  "snake": {
+   "archivo": "assets/img/snake.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "snake.png",
+   "nota": "ilustración individual"
+  },
+  "snowy": {
+   "archivo": "assets/img/snowy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "snowy_cloud.png",
+   "nota": "ilustración individual"
+  },
+  "socks": {
+   "archivo": "assets/img/socks.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "socks.png",
+   "nota": "ilustración individual"
+  },
+  "spell": {
+   "archivo": "assets/img/spell.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "spell_letters.png",
+   "nota": "ilustración individual"
+  },
+  "spring": {
+   "archivo": "assets/img/spring.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "spring_flower.png",
+   "nota": "ilustración individual"
+  },
+  "square": {
+   "archivo": "assets/img/square.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "square.png",
+   "nota": "ilustración individual"
+  },
+  "stormy": {
+   "archivo": "assets/img/stormy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "stormy_lightning.png",
+   "nota": "ilustración individual"
+  },
+  "story": {
+   "archivo": "assets/img/story.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "scroll_quill.png",
+   "nota": "ilustración individual"
+  },
+  "straight": {
+   "archivo": "assets/img/straight.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "straight.png",
+   "nota": "ilustración individual"
+  },
+  "strawberry": {
+   "archivo": "assets/img/strawberry.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "strawberry.png",
+   "nota": "ilustración individual"
+  },
+  "street": {
+   "archivo": "assets/img/street.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "street.png",
+   "nota": "ilustración individual"
+  },
+  "strong": {
+   "archivo": "assets/img/strong.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "strong.png",
+   "nota": "ilustración individual"
+  },
+  "studied": {
+   "archivo": "assets/img/studied.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "studied_desk.png",
+   "nota": "ilustración individual"
+  },
+  "study": {
+   "archivo": "assets/img/study.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "study.png",
+   "nota": "ilustración individual"
+  },
+  "summer": {
+   "archivo": "assets/img/summer.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "summer_beach.png",
+   "nota": "ilustración individual"
+  },
+  "sunny": {
+   "archivo": "assets/img/sunny.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "sunny_sun.png",
+   "nota": "ilustración individual"
+  },
+  "supermarket": {
+   "archivo": "assets/img/supermarket.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "supermarket.png",
+   "nota": "ilustración individual"
+  },
+  "swim": {
+   "archivo": "assets/img/swim.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "swim.png",
+   "nota": "ilustración individual"
+  },
+  "swimming": {
+   "archivo": "assets/img/swimming.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "swimming.png",
+   "nota": "ilustración individual"
+  },
+  "table": {
+   "archivo": "assets/img/table.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "dining_table.png",
+   "nota": "ilustración individual"
+  },
+  "tall": {
+   "archivo": "assets/img/tall.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "tall.png",
+   "nota": "ilustración individual"
+  },
+  "taxi": {
+   "archivo": "assets/img/taxi.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "taxi.png",
+   "nota": "ilustración individual"
+  },
+  "teacher": {
+   "archivo": "assets/img/teacher.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "teacher.png",
+   "nota": "ilustración individual"
+  },
+  "teddy bear": {
+   "archivo": "assets/img/teddy-bear.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "teddy_bear.png",
+   "nota": "ilustración individual"
+  },
+  "teeth": {
+   "archivo": "assets/img/teeth.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "teeth_smile.png",
+   "nota": "ilustración individual"
+  },
+  "tennis": {
+   "archivo": "assets/img/tennis.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "tennis_racket_ball.png",
+   "nota": "ilustración individual"
+  },
+  "thank you": {
+   "archivo": "assets/img/thank-you.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "thank_you.png",
+   "nota": "ilustración individual"
+  },
+  "thin": {
+   "archivo": "assets/img/thin.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "thin.png",
+   "nota": "ilustración individual"
+  },
+  "thirsty": {
+   "archivo": "assets/img/thirsty.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "thirsty.png",
+   "nota": "ilustración individual"
+  },
+  "three": {
+   "archivo": "assets/img/three.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "three_3.png",
+   "nota": "ilustración individual"
+  },
+  "tiger": {
+   "archivo": "assets/img/tiger.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "tiger.png",
+   "nota": "ilustración individual"
+  },
+  "tomorrow": {
+   "archivo": "assets/img/tomorrow.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "timeline_yesterday_today_tomorrow.png",
+   "nota": "ilustración individual"
+  },
+  "took": {
+   "archivo": "assets/img/took.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "took_book.png",
+   "nota": "ilustración individual"
+  },
+  "train": {
+   "archivo": "assets/img/train.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "train.png",
+   "nota": "ilustración individual"
+  },
+  "travel": {
+   "archivo": "assets/img/travel.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "luggage_travel.png",
+   "nota": "ilustración individual"
+  },
+  "trousers": {
+   "archivo": "assets/img/trousers.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "trousers.png",
+   "nota": "ilustración individual"
+  },
+  "tummy": {
+   "archivo": "assets/img/tummy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "tummy_belly.png",
+   "nota": "ilustración individual"
+  },
+  "turn left": {
+   "archivo": "assets/img/turn-left.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "arrow_turn_left.png",
+   "nota": "ilustración individual"
+  },
+  "turn right": {
+   "archivo": "assets/img/turn-right.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "arrow_turn_right.png",
+   "nota": "ilustración individual"
+  },
+  "two": {
+   "archivo": "assets/img/two.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "two_2.png",
+   "nota": "ilustración individual"
+  },
+  "under": {
+   "archivo": "assets/img/under.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "under.png",
+   "nota": "ilustración individual"
+  },
+  "underground": {
+   "archivo": "assets/img/underground.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "underground_metro.png",
+   "nota": "ilustración individual"
+  },
+  "villain": {
+   "archivo": "assets/img/villain.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "villain.png",
+   "nota": "ilustración individual"
+  },
+  "visit": {
+   "archivo": "assets/img/visit.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "visit_house.png",
+   "nota": "ilustración individual"
+  },
+  "visited": {
+   "archivo": "assets/img/visited.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "visited_grandparents.png",
+   "nota": "ilustración individual"
+  },
+  "wake up": {
+   "archivo": "assets/img/wake-up.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "wake_up_alarm.png",
+   "nota": "ilustración individual"
+  },
+  "warm": {
+   "archivo": "assets/img/warm.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "warm.png",
+   "nota": "ilustración individual"
+  },
+  "wash my face": {
+   "archivo": "assets/img/wash-my-face.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "wash_face.png",
+   "nota": "ilustración individual"
+  },
+  "watch TV": {
+   "archivo": "assets/img/watch-tv.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "watch_tv.png",
+   "nota": "ilustración individual"
+  },
+  "watched": {
+   "archivo": "assets/img/watched.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "watched_tv.png",
+   "nota": "ilustración individual"
+  },
+  "water": {
+   "archivo": "assets/img/water.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "water.png",
+   "nota": "ilustración individual"
+  },
+  "weather": {
+   "archivo": "assets/img/weather.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "thermometer.png",
+   "nota": "ilustración individual"
+  },
+  "white": {
+   "archivo": "assets/img/white.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "white_cloud.png",
+   "nota": "ilustración individual"
+  },
+  "window": {
+   "archivo": "assets/img/window.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "window.png",
+   "nota": "ilustración individual"
+  },
+  "windy": {
+   "archivo": "assets/img/windy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "windy_swirl.png",
+   "nota": "ilustración individual"
+  },
+  "winter": {
+   "archivo": "assets/img/winter.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "winter_snowman.png",
+   "nota": "ilustración individual"
+  },
+  "write": {
+   "archivo": "assets/img/write.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "write.png",
+   "nota": "ilustración individual"
+  },
+  "writing": {
+   "archivo": "assets/img/writing.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "writing.png",
+   "nota": "ilustración individual"
+  },
+  "yellow": {
+   "archivo": "assets/img/yellow.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "yellow_triangle.png",
+   "nota": "ilustración individual"
+  },
+  "yummy": {
+   "archivo": "assets/img/yummy.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "yummy.png",
+   "nota": "ilustración individual"
+  },
+  "zebra": {
+   "archivo": "assets/img/zebra.webp",
+   "autor": "LangKids (IA)",
+   "licencia": "Uso propio",
+   "origen": "zebra.png",
+   "nota": "ilustración individual"
+  }
+ }
+}

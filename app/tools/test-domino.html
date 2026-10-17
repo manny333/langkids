@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Domino test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 1000px; height: 520px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/domino.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    var nombres = ["apple", "banana", "grapes", "bear", "ball", "doll", "car", "bus", "bike", "bird"];
+    var palabras = nombres.map(function (p) { return { en: p, emoji: "❓" }; });
+
+    var cont = document.getElementById("zona");
+    var final = null;
+    var juego = Domino.montar(cont, { palabras: palabras, colocaciones: 4 }, function (r) { final = r; });
+
+    ok("se monta el juego", !!juego);
+    ok("tres fichas en la mano", cont.querySelectorAll(".domi-opcion").length === 3);
+
+    function etiquetaDe(ficha) {
+      var t = ficha.querySelector(".domi-media.texto");
+      return t ? t.textContent.trim() : null;
+    }
+
+    var cadena = juego.cadena();
+    ok("cadena de 5 palabras", cadena.length === 5, cadena.join(">"));
+
+    var fichas = [].slice.call(cont.querySelectorAll(".domi-opcion"));
+    var palabrasMano = fichas.map(etiquetaDe);
+    var abierta = cadena[0];
+    var cuantasCorrectas = palabrasMano.filter(function (p) { return p === abierta; }).length;
+    ok("exactamente una ficha dice la palabra del dibujo", cuantasCorrectas === 1,
+       "abierta=" + abierta + " mano=" + palabrasMano.join(","));
+    ok("las tres fichas tienen palabras distintas",
+       new Set(palabrasMano).size === 3, palabrasMano.join(","));
+
+    // fallo: pulsar una ficha que no es
+    var mala = fichas.filter(function (f) { return etiquetaDe(f) !== abierta; })[0];
+    if (mala) {
+      mala.click();
+      ok("el fallo se cuenta", juego.fallos() === 1);
+      ok("el fallo no avanza", juego.turno() === 0, "turno=" + juego.turno());
+    }
+
+    // completar la cadena
+    var ciclos = 0;
+    function jugar() {
+      if (final || ciclos > 20) {
+        ok("coloca las cuatro fichas", juego.turno() === 4, "turno=" + juego.turno());
+        ok("avisa del final", !!final, final ? JSON.stringify(final) : "sin final");
+        ok("cadena final completa", cont.querySelectorAll(".domi-ficha").length === 5,
+           "fichas=" + cont.querySelectorAll(".domi-ficha").length);
+        var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+        log.push("");
+        log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+        document.getElementById("out").textContent = log.join("\n");
+        return;
+      }
+      ciclos++;
+      juego._acertar();
+      setTimeout(jugar, 800);
+    }
+    setTimeout(jugar, 300);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

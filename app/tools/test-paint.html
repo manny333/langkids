@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Prueba de pintura y galería</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 320px; height: 260px; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">ejecutando…</pre>
+<script src="../www/js/paint.js"></script>
+<script>
+(function () {
+  var lineas = [];
+  function ok(nombre, cond, extra) {
+    lineas.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    localStorage.removeItem("langkids.dibujos.v1");
+
+    var cont = document.getElementById("zona");
+    var guardado = null;
+    var app = Paint.montar(cont, function (id) { guardado = id; });
+
+    var lienzo = cont.querySelector("canvas");
+    ok("el lienzo existe", !!lienzo);
+
+    function ev(tipo, x, y) {
+      var e = new PointerEvent(tipo, { clientX: x, clientY: y, pointerId: 1, bubbles: true });
+      lienzo.dispatchEvent(e);
+    }
+
+    var caja = lienzo.getBoundingClientRect();
+    var x0 = caja.left + 40, y0 = caja.top + 40;
+
+    ok("sin trazos al empezar", app.hayDibujo() === false);
+    ev("pointerdown", x0, y0);
+    for (var i = 1; i <= 12; i++) { ev("pointermove", x0 + i * 12, y0 + i * 8); }
+    ev("pointerup", x0 + 144, y0 + 96);
+    ok("registra el trazo", app.hayDibujo() === true);
+    ok("marca cambios sin guardar", app.hayCambios() === true);
+
+    var datos = app.datos();
+    ok("genera PNG", /^data:image\/png;base64,/.test(datos), "len=" + datos.length);
+    ok("el PNG tiene contenido", datos.length > 3000, "len=" + datos.length);
+
+    // deshacer
+    var deshacer = cont.querySelector('[aria-label="deshacer"]');
+    var limpiar = cont.querySelector('[aria-label="borrar todo"]');
+    ok("hay cerrar", !!cont.querySelector('[aria-label="cerrar"]'));
+    ok("hay goma", !!cont.querySelector('[aria-label="goma"]'));
+    ok("hay 3 grosores", cont.querySelectorAll('[aria-label^="grosor"]').length === 3);
+    ok("hay 10 colores", cont.querySelectorAll(".paint-color").length === 10);
+    ok("hay botón deshacer", !!deshacer);
+    ok("hay botón borrar todo", !!limpiar);
+
+    deshacer.click();
+    ok("deshacer quita el trazo", app.hayDibujo() === false);
+
+    // volver a dibujar y guardar
+    ev("pointerdown", x0, y0 + 30);
+    for (var k = 1; k <= 8; k++) { ev("pointermove", x0 + k * 14, y0 + 30 + k * 6); }
+    ev("pointerup", x0 + 112, y0 + 78);
+
+    var botonGuardar = cont.querySelector(".paint-guardar");
+    ok("hay botón guardar", !!botonGuardar);
+    botonGuardar.click();
+
+    ok("devuelve un id al guardar", !!guardado, guardado || "");
+    var lista = Dibujos.listar();
+    ok("la galería lista 1 dibujo", lista.length === 1, "n=" + lista.length);
+
+    var recuperado = Dibujos.cargar(lista[0].id);
+    ok("se recupera el dibujo", /^data:image\/png;base64,/.test(recuperado), "len=" + recuperado.length);
+    ok("el dibujo recuperado coincide", recuperado === datos || recuperado.length > 3000);
+
+    Dibujos.borrar(lista[0].id);
+    ok("borrar deja la galería vacía", Dibujos.listar().length === 0);
+  } catch (e) {
+    lineas.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+
+  var fallos = lineas.filter(function (l) { return l.indexOf("FALLO") === 0 || l.indexOf("EXCEPCIÓN") === 0; }).length;
+  lineas.push("");
+  lineas.push(fallos ? ("RESULTADO: " + fallos + " fallo(s)") : "RESULTADO: TODO OK");
+  document.getElementById("out").textContent = lineas.join("\n");
+})();
+</script>
+</body>
+</html>

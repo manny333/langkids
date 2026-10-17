@@ -1,0 +1,5089 @@
+{
+ "acting": {
+  "caja": [
+   42,
+   74,
+   470,
+   437
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "afternoon": {
+  "caja": [
+   42,
+   48,
+   468,
+   463
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "alphabet": {
+  "caja": [
+   41,
+   61,
+   469,
+   451
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "angry": {
+  "caja": [
+   40,
+   61,
+   469,
+   448
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "apple": {
+  "caja": [
+   56,
+   40,
+   451,
+   469
+  ],
+  "desx": 0.01,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "april": {
+  "caja": [
+   41,
+   60,
+   469,
+   450
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "arms": {
+  "caja": [
+   46,
+   42,
+   461,
+   469
+  ],
+  "desx": 0.01,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "ate": {
+  "caja": [
+   66,
+   42,
+   445,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "august": {
+  "caja": [
+   41,
+   62,
+   468,
+   452
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "autumn": {
+  "caja": [
+   64,
+   44,
+   447,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "baby": {
+  "caja": [
+   40,
+   43,
+   467,
+   467
+  ],
+  "desx": 0.01,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bag": {
+  "caja": [
+   46,
+   41,
+   463,
+   468
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "ball": {
+  "caja": [
+   43,
+   45,
+   469,
+   467
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "balloon": {
+  "caja": [
+   72,
+   41,
+   440,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "banana": {
+  "caja": [
+   50,
+   40,
+   459,
+   467
+  ],
+  "desx": 0.006,
+  "desy": 0.01,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bank": {
+  "caja": [
+   41,
+   94,
+   469,
+   416
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "basketball": {
+  "caja": [
+   42,
+   52,
+   470,
+   460
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "bathroom": {
+  "caja": [
+   41,
+   85,
+   468,
+   425
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bear": {
+  "caja": [
+   91,
+   42,
+   418,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "beard": {
+  "caja": [
+   41,
+   73,
+   468,
+   437
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "beautiful": {
+  "caja": [
+   99,
+   42,
+   412,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "bed": {
+  "caja": [
+   43,
+   104,
+   470,
+   406
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bedroom": {
+  "caja": [
+   42,
+   61,
+   469,
+   452
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "behind": {
+  "caja": [
+   42,
+   96,
+   468,
+   415
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "between": {
+  "caja": [
+   43,
+   167,
+   470,
+   344
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "big": {
+  "caja": [
+   41,
+   100,
+   469,
+   413
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "bike": {
+  "caja": [
+   42,
+   91,
+   469,
+   421
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bird": {
+  "caja": [
+   42,
+   90,
+   468,
+   422
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "birthday": {
+  "caja": [
+   41,
+   51,
+   469,
+   461
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "birthday-party": {
+  "caja": [
+   41,
+   74,
+   468,
+   439
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "black": {
+  "caja": [
+   42,
+   67,
+   468,
+   445
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "blocks": {
+  "caja": [
+   43,
+   104,
+   469,
+   408
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "blue": {
+  "caja": [
+   42,
+   52,
+   468,
+   460
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "board": {
+  "caja": [
+   42,
+   66,
+   470,
+   443
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "boat": {
+  "caja": [
+   44,
+   41,
+   467,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "book": {
+  "caja": [
+   78,
+   41,
+   432,
+   468
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "boy": {
+  "caja": [
+   85,
+   40,
+   428,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "brave": {
+  "caja": [
+   43,
+   45,
+   470,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "brazil": {
+  "caja": [
+   41,
+   76,
+   468,
+   434
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bread": {
+  "caja": [
+   41,
+   80,
+   471,
+   432
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "brother": {
+  "caja": [
+   80,
+   41,
+   430,
+   469
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "brown": {
+  "caja": [
+   41,
+   48,
+   468,
+   463
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "brush-my-teeth": {
+  "caja": [
+   58,
+   43,
+   451,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "bus": {
+  "caja": [
+   43,
+   107,
+   471,
+   403
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "buy": {
+  "caja": [
+   63,
+   41,
+   449,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "bye-bye": {
+  "caja": [
+   54,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "caf": {
+  "caja": [
+   41,
+   96,
+   469,
+   416
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cake": {
+  "caja": [
+   58,
+   40,
+   451,
+   468
+  ],
+  "desx": 0.006,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "capital": {
+  "caja": [
+   42,
+   42,
+   469,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "car": {
+  "caja": [
+   42,
+   140,
+   468,
+   371
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "cat": {
+  "caja": [
+   53,
+   40,
+   462,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "chair": {
+  "caja": [
+   91,
+   43,
+   419,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "character": {
+  "caja": [
+   72,
+   42,
+   438,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cheese": {
+  "caja": [
+   43,
+   50,
+   469,
+   462
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "chicken": {
+  "caja": [
+   42,
+   133,
+   471,
+   378
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "cinema": {
+  "caja": [
+   41,
+   109,
+   469,
+   404
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cleaned": {
+  "caja": [
+   41,
+   45,
+   468,
+   466
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "clever": {
+  "caja": [
+   57,
+   41,
+   452,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "climb": {
+  "caja": [
+   111,
+   42,
+   400,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cloudy": {
+  "caja": [
+   42,
+   136,
+   468,
+   371
+  ],
+  "desx": 0.004,
+  "desy": 0.01,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "cold": {
+  "caja": [
+   44,
+   90,
+   470,
+   423
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "continent": {
+  "caja": [
+   42,
+   74,
+   468,
+   436
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "cook": {
+  "caja": [
+   42,
+   129,
+   468,
+   384
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "cooked": {
+  "caja": [
+   41,
+   70,
+   469,
+   442
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cooking": {
+  "caja": [
+   42,
+   52,
+   470,
+   463
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cool": {
+  "caja": [
+   41,
+   48,
+   468,
+   462
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "count": {
+  "caja": [
+   43,
+   84,
+   470,
+   428
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "country": {
+  "caja": [
+   41,
+   58,
+   470,
+   455
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "cow": {
+  "caja": [
+   41,
+   61,
+   469,
+   453
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "crayon": {
+  "caja": [
+   43,
+   53,
+   470,
+   459
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "crocodile": {
+  "caja": [
+   41,
+   146,
+   471,
+   366
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "curly": {
+  "caja": [
+   97,
+   41,
+   415,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "cycling": {
+  "caja": [
+   63,
+   42,
+   434,
+   470
+  ],
+  "desx": 0.029,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "daddy": {
+  "caja": [
+   99,
+   41,
+   412,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "dance": {
+  "caja": [
+   42,
+   77,
+   466,
+   435
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.828,
+  "sueltas": 0
+ },
+ "dancing": {
+  "caja": [
+   56,
+   42,
+   453,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "dark": {
+  "caja": [
+   43,
+   97,
+   470,
+   412
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "december": {
+  "caja": [
+   42,
+   42,
+   467,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "degrees": {
+  "caja": [
+   42,
+   94,
+   469,
+   420
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "desert": {
+  "caja": [
+   43,
+   118,
+   468,
+   392
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.83,
+  "sueltas": 0
+ },
+ "desk": {
+  "caja": [
+   42,
+   80,
+   470,
+   432
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "do-homework": {
+  "caja": [
+   42,
+   70,
+   468,
+   443
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "dog": {
+  "caja": [
+   41,
+   62,
+   471,
+   451
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "doll": {
+  "caja": [
+   74,
+   42,
+   435,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "don-t-like": {
+  "caja": [
+   41,
+   82,
+   468,
+   431
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "door": {
+  "caja": [
+   85,
+   42,
+   424,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "drank": {
+  "caja": [
+   52,
+   42,
+   460,
+   471
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "draw": {
+  "caja": [
+   41,
+   124,
+   468,
+   389
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "drawing": {
+  "caja": [
+   42,
+   48,
+   469,
+   462
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "dress": {
+  "caja": [
+   67,
+   41,
+   444,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "duck": {
+  "caja": [
+   49,
+   39,
+   461,
+   469
+  ],
+  "desx": 0.004,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "ears": {
+  "caja": [
+   43,
+   119,
+   469,
+   393
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "egg": {
+  "caja": [
+   111,
+   41,
+   401,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "eight": {
+  "caja": [
+   85,
+   42,
+   425,
+   469
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "elephant": {
+  "caja": [
+   40,
+   76,
+   469,
+   437
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "england": {
+  "caja": [
+   129,
+   40,
+   381,
+   469
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "evening": {
+  "caja": [
+   41,
+   48,
+   469,
+   464
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "eyes": {
+  "caja": [
+   42,
+   168,
+   470,
+   341
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "fair": {
+  "caja": [
+   62,
+   42,
+   449,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "family": {
+  "caja": [
+   40,
+   54,
+   468,
+   458
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "fast": {
+  "caja": [
+   43,
+   141,
+   470,
+   368
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "favorite": {
+  "caja": [
+   54,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "february": {
+  "caja": [
+   43,
+   74,
+   470,
+   434
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "feet": {
+  "caja": [
+   41,
+   91,
+   469,
+   422
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "fine": {
+  "caja": [
+   43,
+   51,
+   469,
+   460
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "fish": {
+  "caja": [
+   43,
+   97,
+   469,
+   414
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "five": {
+  "caja": [
+   86,
+   42,
+   426,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "fly": {
+  "caja": [
+   43,
+   52,
+   469,
+   459
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "foggy": {
+  "caja": [
+   154,
+   144,
+   361,
+   150
+  ],
+  "desx": 0.006,
+  "desy": 0.426,
+  "estado": [
+   "TEXTO",
+   "DESCENTRADA",
+   "PEQUENA"
+  ],
+  "relleno": 0.404,
+  "sueltas": 1
+ },
+ "football": {
+  "caja": [
+   42,
+   51,
+   469,
+   460
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "four": {
+  "caja": [
+   67,
+   41,
+   443,
+   467
+  ],
+  "desx": 0.004,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "france": {
+  "caja": [
+   106,
+   45,
+   403,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.828,
+  "sueltas": 0
+ },
+ "free-time": {
+  "caja": [
+   41,
+   45,
+   469,
+   465
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "fridge": {
+  "caja": [
+   76,
+   43,
+   436,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "friend": {
+  "caja": [
+   44,
+   42,
+   468,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "friendly": {
+  "caja": [
+   49,
+   42,
+   464,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "funny": {
+  "caja": [
+   43,
+   75,
+   469,
+   435
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "garden": {
+  "caja": [
+   40,
+   93,
+   469,
+   417
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "gave": {
+  "caja": [
+   43,
+   95,
+   470,
+   417
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "get-dressed": {
+  "caja": [
+   120,
+   42,
+   392,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "get-up": {
+  "caja": [
+   41,
+   77,
+   467,
+   434
+  ],
+  "desx": 0.008,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "giraffe": {
+  "caja": [
+   112,
+   41,
+   399,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "girl": {
+  "caja": [
+   46,
+   40,
+   464,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "glasses": {
+  "caja": [
+   42,
+   170,
+   469,
+   339
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "go-straight": {
+  "caja": [
+   57,
+   41,
+   451,
+   469
+  ],
+  "desx": 0.008,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "go-to-bed": {
+  "caja": [
+   42,
+   88,
+   469,
+   426
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "go-to-school": {
+  "caja": [
+   42,
+   52,
+   470,
+   460
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "good-afternoon": {
+  "caja": [
+   42,
+   41,
+   469,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "good-morning": {
+  "caja": [
+   42,
+   85,
+   468,
+   427
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "goodbye": {
+  "caja": [
+   54,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "grandma": {
+  "caja": [
+   53,
+   42,
+   456,
+   471
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "grandpa": {
+  "caja": [
+   75,
+   41,
+   437,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "grapes": {
+  "caja": [
+   68,
+   40,
+   441,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "green": {
+  "caja": [
+   46,
+   48,
+   465,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.01,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.822,
+  "sueltas": 0
+ },
+ "had": {
+  "caja": [
+   41,
+   87,
+   468,
+   425
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hair": {
+  "caja": [
+   65,
+   42,
+   447,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "half-past": {
+  "caja": [
+   41,
+   117,
+   468,
+   392
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hands": {
+  "caja": [
+   40,
+   101,
+   469,
+   411
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "happy": {
+  "caja": [
+   43,
+   95,
+   469,
+   418
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "happy-ending": {
+  "caja": [
+   43,
+   98,
+   470,
+   416
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hat": {
+  "caja": [
+   42,
+   117,
+   469,
+   393
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "have-breakfast": {
+  "caja": [
+   42,
+   81,
+   470,
+   431
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "have-dinner": {
+  "caja": [
+   43,
+   95,
+   470,
+   417
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "have-lunch": {
+  "caja": [
+   42,
+   57,
+   470,
+   455
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "head": {
+  "caja": [
+   47,
+   42,
+   465,
+   471
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "heavier": {
+  "caja": [
+   42,
+   160,
+   469,
+   350
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hello": {
+  "caja": [
+   53,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "help": {
+  "caja": [
+   42,
+   65,
+   469,
+   445
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hero": {
+  "caja": [
+   40,
+   100,
+   469,
+   411
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "hi": {
+  "caja": [
+   53,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "hobby": {
+  "caja": [
+   54,
+   42,
+   456,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "holiday": {
+  "caja": [
+   53,
+   41,
+   458,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "horse": {
+  "caja": [
+   41,
+   58,
+   470,
+   450
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "hospital": {
+  "caja": [
+   43,
+   138,
+   469,
+   375
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "hot": {
+  "caja": [
+   40,
+   63,
+   469,
+   448
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "house": {
+  "caja": [
+   42,
+   93,
+   469,
+   417
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "how-many": {
+  "caja": [
+   43,
+   84,
+   470,
+   428
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "hungry": {
+  "caja": [
+   42,
+   87,
+   470,
+   426
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "ice-cream": {
+  "caja": [
+   120,
+   42,
+   388,
+   470
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "idea": {
+  "caja": [
+   44,
+   113,
+   469,
+   399
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.83,
+  "sueltas": 0
+ },
+ "in": {
+  "caja": [
+   42,
+   69,
+   470,
+   441
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "in-front-of": {
+  "caja": [
+   42,
+   80,
+   470,
+   430
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "invitation": {
+  "caja": [
+   42,
+   64,
+   470,
+   448
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "italy": {
+  "caja": [
+   40,
+   60,
+   468,
+   455
+  ],
+  "desx": 0.008,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "jacket": {
+  "caja": [
+   43,
+   64,
+   470,
+   448
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "january": {
+  "caja": [
+   55,
+   43,
+   458,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.83,
+  "sueltas": 0
+ },
+ "japan": {
+  "caja": [
+   42,
+   100,
+   470,
+   411
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "juice": {
+  "caja": [
+   86,
+   42,
+   427,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "july": {
+  "caja": [
+   135,
+   41,
+   377,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "jump": {
+  "caja": [
+   86,
+   42,
+   425,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "june": {
+  "caja": [
+   41,
+   56,
+   468,
+   455
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "jungle": {
+  "caja": [
+   42,
+   66,
+   469,
+   442
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "kind": {
+  "caja": [
+   42,
+   75,
+   469,
+   435
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "kitchen": {
+  "caja": [
+   42,
+   56,
+   470,
+   456
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "kite": {
+  "caja": [
+   42,
+   81,
+   469,
+   431
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "legs": {
+  "caja": [
+   42,
+   93,
+   470,
+   415
+  ],
+  "desx": 0.0,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "letter": {
+  "caja": [
+   43,
+   48,
+   469,
+   462
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "library": {
+  "caja": [
+   42,
+   136,
+   470,
+   376
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "lighter": {
+  "caja": [
+   41,
+   95,
+   469,
+   419
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "like": {
+  "caja": [
+   42,
+   82,
+   468,
+   431
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "lion": {
+  "caja": [
+   59,
+   42,
+   450,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "living-room": {
+  "caja": [
+   42,
+   60,
+   470,
+   451
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "long": {
+  "caja": [
+   40,
+   72,
+   469,
+   442
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "love": {
+  "caja": [
+   42,
+   82,
+   468,
+   431
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "made": {
+  "caja": [
+   42,
+   72,
+   470,
+   439
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "march": {
+  "caja": [
+   42,
+   47,
+   470,
+   461
+  ],
+  "desx": 0.0,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "may": {
+  "caja": [
+   79,
+   41,
+   433,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "meet": {
+  "caja": [
+   43,
+   42,
+   468,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "milk": {
+  "caja": [
+   59,
+   42,
+   453,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "monday-sunday": {
+  "caja": [
+   41,
+   51,
+   469,
+   460
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "monkey": {
+  "caja": [
+   103,
+   41,
+   411,
+   471
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.84,
+  "sueltas": 0
+ },
+ "month": {
+  "caja": [
+   41,
+   55,
+   469,
+   455
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "morning": {
+  "caja": [
+   51,
+   42,
+   461,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "mountain": {
+  "caja": [
+   43,
+   92,
+   470,
+   421
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "moustache": {
+  "caja": [
+   41,
+   141,
+   468,
+   371
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "mouth": {
+  "caja": [
+   40,
+   122,
+   468,
+   389
+  ],
+  "desx": 0.008,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "mummy": {
+  "caja": [
+   45,
+   42,
+   466,
+   471
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "museum": {
+  "caja": [
+   42,
+   89,
+   470,
+   421
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "narrator": {
+  "caja": [
+   40,
+   91,
+   469,
+   418
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "nationality": {
+  "caja": [
+   43,
+   78,
+   469,
+   432
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "near": {
+  "caja": [
+   42,
+   108,
+   468,
+   402
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "next-to": {
+  "caja": [
+   42,
+   108,
+   468,
+   402
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "night": {
+  "caja": [
+   45,
+   42,
+   467,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "nine": {
+  "caja": [
+   91,
+   42,
+   420,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "nose": {
+  "caja": [
+   41,
+   117,
+   467,
+   395
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "notebook": {
+  "caja": [
+   73,
+   41,
+   434,
+   467
+  ],
+  "desx": 0.01,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "november": {
+  "caja": [
+   63,
+   41,
+   450,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "o-clock": {
+  "caja": [
+   42,
+   114,
+   470,
+   398
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "ocean": {
+  "caja": [
+   43,
+   86,
+   467,
+   426
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.828,
+  "sueltas": 0
+ },
+ "october": {
+  "caja": [
+   41,
+   59,
+   468,
+   451
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "of-course": {
+  "caja": [
+   43,
+   51,
+   469,
+   460
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "on": {
+  "caja": [
+   70,
+   42,
+   439,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "once-upon-a-time": {
+  "caja": [
+   41,
+   116,
+   467,
+   394
+  ],
+  "desx": 0.008,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "one": {
+  "caja": [
+   137,
+   42,
+   372,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "opposite": {
+  "caja": [
+   40,
+   172,
+   469,
+   339
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "orange": {
+  "caja": [
+   65,
+   42,
+   447,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "paint": {
+  "caja": [
+   41,
+   92,
+   468,
+   418
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "painting": {
+  "caja": [
+   42,
+   47,
+   469,
+   465
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "park": {
+  "caja": [
+   43,
+   133,
+   470,
+   378
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "party": {
+  "caja": [
+   41,
+   48,
+   469,
+   463
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "pen": {
+  "caja": [
+   59,
+   41,
+   452,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "pencil": {
+  "caja": [
+   55,
+   42,
+   458,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "penguin": {
+  "caja": [
+   50,
+   41,
+   460,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "pig": {
+  "caja": [
+   42,
+   70,
+   471,
+   439
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "pink": {
+  "caja": [
+   43,
+   47,
+   470,
+   465
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "plan": {
+  "caja": [
+   42,
+   52,
+   470,
+   457
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "plane": {
+  "caja": [
+   42,
+   147,
+   469,
+   364
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "play": {
+  "caja": [
+   42,
+   87,
+   468,
+   423
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "played": {
+  "caja": [
+   42,
+   51,
+   470,
+   459
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "please": {
+  "caja": [
+   42,
+   66,
+   470,
+   444
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "population": {
+  "caja": [
+   41,
+   58,
+   469,
+   453
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "project": {
+  "caja": [
+   42,
+   52,
+   470,
+   457
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "purple": {
+  "caja": [
+   71,
+   42,
+   441,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "rabbit": {
+  "caja": [
+   65,
+   41,
+   446,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "rainy": {
+  "caja": [
+   42,
+   50,
+   468,
+   459
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "read": {
+  "caja": [
+   41,
+   137,
+   468,
+   373
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "reading": {
+  "caja": [
+   92,
+   41,
+   420,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "red": {
+  "caja": [
+   43,
+   43,
+   469,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "rice": {
+  "caja": [
+   63,
+   42,
+   450,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "ride": {
+  "caja": [
+   47,
+   42,
+   465,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "rubber": {
+  "caja": [
+   46,
+   42,
+   467,
+   469
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "ruler": {
+  "caja": [
+   45,
+   43,
+   465,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "run": {
+  "caja": [
+   42,
+   62,
+   469,
+   450
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "sad": {
+  "caja": [
+   42,
+   95,
+   469,
+   418
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "salad": {
+  "caja": [
+   42,
+   72,
+   469,
+   437
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "sandwich": {
+  "caja": [
+   43,
+   85,
+   470,
+   423
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "saw": {
+  "caja": [
+   41,
+   77,
+   470,
+   435
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "scarf": {
+  "caja": [
+   70,
+   42,
+   442,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "school": {
+  "caja": [
+   41,
+   168,
+   468,
+   393
+  ],
+  "desx": 0.006,
+  "desy": 0.096,
+  "estado": [
+   "TEXTO"
+  ],
+  "relleno": 0.834,
+  "sueltas": 1
+ },
+ "scissors": {
+  "caja": [
+   42,
+   78,
+   470,
+   431
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "september": {
+  "caja": [
+   41,
+   53,
+   468,
+   458
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "seven": {
+  "caja": [
+   103,
+   42,
+   408,
+   470
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "sheep": {
+  "caja": [
+   42,
+   109,
+   471,
+   400
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "shoes": {
+  "caja": [
+   42,
+   82,
+   468,
+   428
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "shop": {
+  "caja": [
+   41,
+   94,
+   469,
+   418
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "short": {
+  "caja": [
+   41,
+   88,
+   468,
+   421
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "shorts": {
+  "caja": [
+   42,
+   92,
+   470,
+   416
+  ],
+  "desx": 0.0,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "shy": {
+  "caja": [
+   43,
+   85,
+   469,
+   428
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "sing": {
+  "caja": [
+   41,
+   70,
+   469,
+   442
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "singing": {
+  "caja": [
+   43,
+   48,
+   470,
+   462
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "sister": {
+  "caja": [
+   42,
+   60,
+   470,
+   452
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "six": {
+  "caja": [
+   79,
+   41,
+   433,
+   467
+  ],
+  "desx": 0.0,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "skirt": {
+  "caja": [
+   42,
+   100,
+   468,
+   409
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "sleepy": {
+  "caja": [
+   42,
+   99,
+   469,
+   414
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "slow": {
+  "caja": [
+   40,
+   96,
+   468,
+   416
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "small": {
+  "caja": [
+   58,
+   40,
+   449,
+   468
+  ],
+  "desx": 0.01,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "smile": {
+  "caja": [
+   43,
+   53,
+   468,
+   459
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.83,
+  "sueltas": 0
+ },
+ "snake": {
+  "caja": [
+   83,
+   40,
+   427,
+   468
+  ],
+  "desx": 0.004,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "snowy": {
+  "caja": [
+   44,
+   52,
+   468,
+   457
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.828,
+  "sueltas": 0
+ },
+ "socks": {
+  "caja": [
+   56,
+   41,
+   455,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "sofa": {
+  "caja": [
+   43,
+   138,
+   469,
+   374
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "sorry": {
+  "caja": [
+   113,
+   41,
+   398,
+   468
+  ],
+  "desx": 0.002,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "spain": {
+  "caja": [
+   41,
+   58,
+   469,
+   453
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "spell": {
+  "caja": [
+   41,
+   49,
+   469,
+   460
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "spiders": {
+  "caja": [
+   42,
+   126,
+   469,
+   385
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "spring": {
+  "caja": [
+   84,
+   41,
+   425,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "square": {
+  "caja": [
+   41,
+   121,
+   470,
+   391
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "stormy": {
+  "caja": [
+   42,
+   60,
+   470,
+   452
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "story": {
+  "caja": [
+   40,
+   91,
+   469,
+   418
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "straight": {
+  "caja": [
+   42,
+   51,
+   470,
+   461
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "strawberry": {
+  "caja": [
+   87,
+   41,
+   422,
+   470
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "street": {
+  "caja": [
+   43,
+   105,
+   470,
+   405
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "strong": {
+  "caja": [
+   53,
+   40,
+   454,
+   468
+  ],
+  "desx": 0.01,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "studied": {
+  "caja": [
+   54,
+   41,
+   458,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "study": {
+  "caja": [
+   41,
+   86,
+   469,
+   423
+  ],
+  "desx": 0.004,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "summer": {
+  "caja": [
+   49,
+   43,
+   463,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "sunny": {
+  "caja": [
+   40,
+   46,
+   468,
+   469
+  ],
+  "desx": 0.008,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "supermarket": {
+  "caja": [
+   41,
+   133,
+   469,
+   380
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "swim": {
+  "caja": [
+   43,
+   83,
+   469,
+   428
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "swimming": {
+  "caja": [
+   42,
+   75,
+   470,
+   434
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "t-shirt": {
+  "caja": [
+   41,
+   79,
+   469,
+   433
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "table": {
+  "caja": [
+   43,
+   117,
+   470,
+   393
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "tall": {
+  "caja": [
+   41,
+   82,
+   468,
+   430
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "taxi": {
+  "caja": [
+   42,
+   133,
+   469,
+   378
+  ],
+  "desx": 0.002,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "teacher": {
+  "caja": [
+   42,
+   111,
+   469,
+   399
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "teddy-bear": {
+  "caja": [
+   81,
+   42,
+   431,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "teeth": {
+  "caja": [
+   41,
+   137,
+   468,
+   375
+  ],
+  "desx": 0.006,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "ten": {
+  "caja": [
+   42,
+   103,
+   470,
+   407
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "tennis": {
+  "caja": [
+   41,
+   51,
+   468,
+   463
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "thank-you": {
+  "caja": [
+   101,
+   42,
+   411,
+   469
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "thin": {
+  "caja": [
+   162,
+   42,
+   350,
+   468
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "thirsty": {
+  "caja": [
+   41,
+   102,
+   468,
+   411
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "three": {
+  "caja": [
+   89,
+   41,
+   421,
+   469
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "tiger": {
+  "caja": [
+   40,
+   46,
+   468,
+   462
+  ],
+  "desx": 0.008,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "today": {
+  "caja": [
+   41,
+   163,
+   468,
+   350
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "tomorrow": {
+  "caja": [
+   41,
+   163,
+   468,
+   350
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "took": {
+  "caja": [
+   41,
+   46,
+   469,
+   467
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "train": {
+  "caja": [
+   42,
+   85,
+   468,
+   425
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "travel": {
+  "caja": [
+   43,
+   90,
+   470,
+   428
+  ],
+  "desx": 0.002,
+  "desy": 0.012,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "trip": {
+  "caja": [
+   41,
+   68,
+   468,
+   443
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "trousers": {
+  "caja": [
+   84,
+   42,
+   426,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "tummy": {
+  "caja": [
+   41,
+   41,
+   468,
+   468
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "turn-left": {
+  "caja": [
+   43,
+   55,
+   470,
+   453
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "turn-right": {
+  "caja": [
+   42,
+   56,
+   470,
+   453
+  ],
+  "desx": 0.0,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "tv": {
+  "caja": [
+   40,
+   73,
+   469,
+   436
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "two": {
+  "caja": [
+   87,
+   42,
+   423,
+   470
+  ],
+  "desx": 0.004,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "umbrella": {
+  "caja": [
+   43,
+   41,
+   470,
+   467
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "under": {
+  "caja": [
+   42,
+   101,
+   471,
+   407
+  ],
+  "desx": 0.002,
+  "desy": 0.008,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "underground": {
+  "caja": [
+   43,
+   164,
+   469,
+   348
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "villain": {
+  "caja": [
+   41,
+   94,
+   469,
+   419
+  ],
+  "desx": 0.004,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "visit": {
+  "caja": [
+   42,
+   42,
+   470,
+   470
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "visited": {
+  "caja": [
+   42,
+   66,
+   470,
+   448
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "wake-up": {
+  "caja": [
+   41,
+   84,
+   468,
+   425
+  ],
+  "desx": 0.006,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "warm": {
+  "caja": [
+   41,
+   86,
+   468,
+   428
+  ],
+  "desx": 0.006,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "wash-my-face": {
+  "caja": [
+   43,
+   41,
+   465,
+   468
+  ],
+  "desx": 0.008,
+  "desy": 0.006,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "watch-tv": {
+  "caja": [
+   41,
+   81,
+   433,
+   395
+  ],
+  "desx": 0.074,
+  "desy": 0.07,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.766,
+  "sueltas": 0
+ },
+ "watched": {
+  "caja": [
+   42,
+   69,
+   470,
+   444
+  ],
+  "desx": 0.0,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "water": {
+  "caja": [
+   167,
+   42,
+   342,
+   471
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.838,
+  "sueltas": 0
+ },
+ "weather": {
+  "caja": [
+   42,
+   94,
+   469,
+   420
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "white": {
+  "caja": [
+   41,
+   113,
+   469,
+   397
+  ],
+  "desx": 0.004,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "window": {
+  "caja": [
+   42,
+   64,
+   469,
+   446
+  ],
+  "desx": 0.002,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "windy": {
+  "caja": [
+   43,
+   87,
+   470,
+   425
+  ],
+  "desx": 0.002,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "winter": {
+  "caja": [
+   42,
+   72,
+   470,
+   450
+  ],
+  "desx": 0.0,
+  "desy": 0.02,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "write": {
+  "caja": [
+   40,
+   104,
+   468,
+   408
+  ],
+  "desx": 0.008,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "writing": {
+  "caja": [
+   42,
+   58,
+   470,
+   454
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "yellow": {
+  "caja": [
+   42,
+   65,
+   470,
+   447
+  ],
+  "desx": 0.0,
+  "desy": 0.0,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.836,
+  "sueltas": 0
+ },
+ "yesterday": {
+  "caja": [
+   41,
+   163,
+   468,
+   350
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.834,
+  "sueltas": 0
+ },
+ "yummy": {
+  "caja": [
+   43,
+   70,
+   469,
+   440
+  ],
+  "desx": 0.0,
+  "desy": 0.004,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.832,
+  "sueltas": 0
+ },
+ "zebra": {
+  "caja": [
+   49,
+   44,
+   460,
+   469
+  ],
+  "desx": 0.006,
+  "desy": 0.002,
+  "estado": [
+   "OK"
+  ],
+  "relleno": 0.83,
+  "sueltas": 0
+ }
+}

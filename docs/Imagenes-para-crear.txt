@@ -1,0 +1,220 @@
+LISTA DE IMÁGENES · LANGKIDS ENGLISH
+============================================================
+
+CÓMO USAR ESTA LISTA
+------------------------------------------------------------
+1. Crea o consigue cada imagen que aparece abajo.
+2. Formato ideal: cuadrado, 512x512 px, PNG con fondo transparente o blanco,
+   un solo objeto centrado, sin texto y sin personas reales identificables.
+3. Guarda el archivo con el NOMBRE EXACTO de la columna derecha
+   (por ejemplo  apple.png ).  Se aceptan .png, .jpg, .webp y .svg.
+4. Déjalas todas en la carpeta:   app\www\assets\img\
+5. Reconstruye la app:
+       python app\tools\gen_content.py
+       pwsh -File app\tools\build-apk.ps1
+   La app detecta la imagen sola. Si una palabra no tiene imagen, muestra su emoji:
+   no se rompe nada y se pueden añadir de a poco.
+
+RESUMEN
+------------------------------------------------------------
+  Imágenes por crear (sin foto todavía):  3
+  Imágenes que ya existen:               134
+  Palabras opcionales (no críticas):     110
+  Palabras que NO necesitan imagen:      136  (usan emoji a propósito)
+
+
+1) LISTA RÁPIDA — para pegar en un generador de imágenes
+------------------------------------------------------------
+spiders, sandwich, scarf
+
+
+2) LISTA POR CATEGORÍA, CON NOMBRE DE ARCHIVO
+------------------------------------------------------------
+
+ANIMALES  (21)
+   cat              ->  cat.png   [ya está]
+   dog              ->  dog.png   [ya está]
+   bird             ->  bird.png   [ya está]
+   fish             ->  fish.png   [ya está]
+   rabbit           ->  rabbit.png   [ya está]
+   cow              ->  cow.png   [ya está]
+   pig              ->  pig.png   [ya está]
+   horse            ->  horse.png   [ya está]
+   duck             ->  duck.png   [ya está]
+   sheep            ->  sheep.png   [ya está]
+   lion             ->  lion.png   (león)   [ya está]
+   tiger            ->  tiger.png   (tigre)   [ya está]
+   elephant         ->  elephant.png   (elefante)   [ya está]
+   monkey           ->  monkey.png   (mono)   [ya está]
+   giraffe          ->  giraffe.png   (jirafa)   [ya está]
+   snake            ->  snake.png   (serpiente)   [ya está]
+   crocodile        ->  crocodile.png   (cocodrilo)   [ya está]
+   penguin          ->  penguin.png   (pingüino)   [ya está]
+   bear             ->  bear.png   (oso)   [ya está]
+   zebra            ->  zebra.png   (cebra)   [ya está]
+   spiders          ->  spiders.png   (araña (el plan dice «spiders» en plural))
+
+COMIDA Y BEBIDA  (17)
+   apple            ->  apple.png   [ya está]
+   banana           ->  banana.png   [ya está]
+   orange           ->  orange.png   [ya está]
+   grapes           ->  grapes.png   (uvas)   [ya está]
+   strawberry       ->  strawberry.png   (fresa)   [ya está]
+   milk             ->  milk.png   [ya está]
+   water            ->  water.png   [ya está]
+   juice            ->  juice.png   (zumo)   [ya está]
+   bread            ->  bread.png   [ya está]
+   cheese           ->  cheese.png   (queso)   [ya está]
+   egg              ->  egg.png   [ya está]
+   rice             ->  rice.png   (arroz)   [ya está]
+   chicken          ->  chicken.png   (pollo)   [ya está]
+   salad            ->  salad.png   (ensalada)   [ya está]
+   cake             ->  cake.png   [ya está]
+   ice cream        ->  ice-cream.png   (helado)   [ya está]
+   sandwich         ->  sandwich.png   (sándwich)
+
+ROPA  (10)
+   T-shirt          ->  t-shirt.png   (camiseta)   [ya está]
+   trousers         ->  trousers.png   (pantalón)   [ya está]
+   dress            ->  dress.png   (vestido)   [ya está]
+   skirt            ->  skirt.png   (falda)   [ya está]
+   shoes            ->  shoes.png   (zapatos)   [ya está]
+   socks            ->  socks.png   (calcetines)   [ya está]
+   hat              ->  hat.png   (sombrero)   [ya está]
+   jacket           ->  jacket.png   (chaqueta)   [ya está]
+   shorts           ->  shorts.png   (pantalón corto)   [ya está]
+   scarf            ->  scarf.png   (bufanda)
+
+CASA  (13)
+   house            ->  house.png   (casa)   [ya está]
+   bedroom          ->  bedroom.png   (dormitorio)   [ya está]
+   kitchen          ->  kitchen.png   (cocina)   [ya está]
+   bathroom         ->  bathroom.png   (baño)   [ya está]
+   living room      ->  living-room.png   (sala de estar)   [ya está]
+   garden           ->  garden.png   (jardín)   [ya está]
+   bed              ->  bed.png   (cama)   [ya está]
+   table            ->  table.png   (mesa)   [ya está]
+   sofa             ->  sofa.png   (sofá)   [ya está]
+   TV               ->  tv.png   (televisor)   [ya está]
+   fridge           ->  fridge.png   (nevera)   [ya está]
+   door             ->  door.png   (puerta)   [ya está]
+   window           ->  window.png   (ventana)   [ya está]
+
+AULA Y ÚTILES  (12)
+   pencil           ->  pencil.png   (lápiz)   [ya está]
+   pen              ->  pen.png   (bolígrafo)   [ya está]
+   crayon           ->  crayon.png   (cera de color)   [ya está]
+   book             ->  book.png   (libro)   [ya está]
+   notebook         ->  notebook.png   (cuaderno)   [ya está]
+   ruler            ->  ruler.png   (regla)   [ya está]
+   rubber           ->  rubber.png   (goma de borrar)   [ya está]
+   scissors         ->  scissors.png   (tijeras)   [ya está]
+   bag              ->  bag.png   (mochila)   [ya está]
+   desk             ->  desk.png   (escritorio)   [ya está]
+   chair            ->  chair.png   (silla)   [ya está]
+   board            ->  board.png   (pizarra)   [ya está]
+
+JUGUETES  (7)
+   ball             ->  ball.png   (pelota)   [ya está]
+   doll             ->  doll.png   (muñeca)   [ya está]
+   teddy bear       ->  teddy-bear.png   (oso de peluche)   [ya está]
+   train            ->  train.png   (tren)   [ya está]
+   kite             ->  kite.png   (cometa)   [ya está]
+   bike             ->  bike.png   (bicicleta)   [ya está]
+   blocks           ->  blocks.png   (bloques de construcción)   [ya está]
+
+CUERPO  (12)
+   head             ->  head.png   (cabeza)   [ya está]
+   hair             ->  hair.png   (pelo)   [ya está]
+   eyes             ->  eyes.png   (ojos)   [ya está]
+   ears             ->  ears.png   (orejas)   [ya está]
+   nose             ->  nose.png   (nariz)   [ya está]
+   mouth            ->  mouth.png   (boca)   [ya está]
+   teeth            ->  teeth.png   (dientes)   [ya está]
+   hands            ->  hands.png   (manos)   [ya está]
+   arms             ->  arms.png   (brazos)   [ya está]
+   legs             ->  legs.png   (piernas)   [ya está]
+   feet             ->  feet.png   (pies)   [ya está]
+   tummy            ->  tummy.png   (barriga)   [ya está]
+
+TRANSPORTE  (6)
+   bus              ->  bus.png   (autobús)   [ya está]
+   car              ->  car.png   [ya está]
+   plane            ->  plane.png   (avión)   [ya está]
+   boat             ->  boat.png   (barco)   [ya está]
+   taxi             ->  taxi.png   (taxi)   [ya está]
+   underground      ->  underground.png   (metro subterráneo (subway))   [ya está]
+
+LUGARES  (12)
+   school           ->  school.png   (escuela)   [ya está]
+   park             ->  park.png   (parque)   [ya está]
+   hospital         ->  hospital.png   (hospital)   [ya está]
+   supermarket      ->  supermarket.png   (supermercado)   [ya está]
+   library          ->  library.png   (biblioteca)   [ya está]
+   cinema           ->  cinema.png   (cine)   [ya está]
+   museum           ->  museum.png   (museo)   [ya está]
+   bank             ->  bank.png   (banco)   [ya está]
+   café             ->  caf.png   (cafetería)   [ya está]
+   shop             ->  shop.png   (tienda)   [ya está]
+   street           ->  street.png   (calle)   [ya está]
+   square           ->  square.png   (plaza)   [ya está]
+
+NATURALEZA Y CLIMA  (15)
+   mountain         ->  mountain.png   (montaña)   [ya está]
+   ocean            ->  ocean.png   (océano)   [ya está]
+   desert           ->  desert.png   (desierto)   [ya está]
+   jungle           ->  jungle.png   (selva)   [ya está]
+   sunny            ->  sunny.png   (soleado)   [ya está]
+   rainy            ->  rainy.png   (lluvioso)   [ya está]
+   cloudy           ->  cloudy.png   (nublado)   [ya está]
+   windy            ->  windy.png   (con viento)   [ya está]
+   snowy            ->  snowy.png   (nevado)   [ya está]
+   stormy           ->  stormy.png   (tormentoso)   [ya está]
+   foggy            ->  foggy.png   (con niebla)   [ya está]
+   spring           ->  spring.png   (primavera)   [ya está]
+   summer           ->  summer.png   (verano)   [ya está]
+   autumn           ->  autumn.png   (otoño)   [ya está]
+   winter           ->  winter.png   (invierno)   [ya está]
+
+DEPORTES  (3)
+   football         ->  football.png   (fútbol)   [ya está]
+   basketball       ->  basketball.png   (baloncesto)   [ya está]
+   tennis           ->  tennis.png   (tenis)   [ya está]
+
+COLORES Y FORMAS  (9)
+   red              ->  red.png   (rojo)   [ya está]
+   blue             ->  blue.png   (azul)   [ya está]
+   yellow           ->  yellow.png   (amarillo)   [ya está]
+   green            ->  green.png   (verde)   [ya está]
+   purple           ->  purple.png   (morado)   [ya está]
+   pink             ->  pink.png   (rosa)   [ya está]
+   brown            ->  brown.png   (marrón)   [ya está]
+   black            ->  black.png   (negro)   [ya está]
+   white            ->  white.png   (blanco)   [ya está]
+
+
+3) YA LAS TENGO — no hace falta repetirlas
+------------------------------------------------------------
+cat, dog, bird, fish, rabbit, cow, pig, horse, duck, sheep, lion, tiger, elephant, monkey, giraffe, snake, crocodile, penguin, bear, zebra, apple, banana, orange, grapes, strawberry, milk, water, juice, bread, cheese, egg, rice, chicken, salad, cake, ice cream, T-shirt, trousers, dress, skirt, shoes, socks, hat, jacket, shorts, house, bedroom, kitchen, bathroom, living room, garden, bed, table, sofa, TV, fridge, door, window, pencil, pen, crayon, book, notebook, ruler, rubber, scissors, bag, desk, chair, board, ball, doll, teddy bear, train, kite, bike, blocks, head, hair, eyes, ears, nose, mouth, teeth, hands, arms, legs, feet, tummy, bus, car, plane, boat, taxi, underground, school, park, hospital, supermarket, library, cinema, museum, bank, café, shop, street, square, mountain, ocean, desert, jungle, sunny, rainy, cloudy, windy, snowy, stormy, foggy, spring, summer, autumn, winter, football, basketball, tennis, red, blue, yellow, green, purple, pink, brown, black, white
+
+
+4) OPCIONALES — si quieres ir más allá
+------------------------------------------------------------
+Números, meses, días, países, acciones y adjetivos: se entienden mejor con
+símbolos o ilustraciones simples que con fotos, por eso no están en la lista principal.
+
+acting, afternoon, april, ate, august, balloon, beard, birthday, birthday party, brazil, brush my teeth, buy, character, cleaned, climb, cold, cook, cooked, cooking, cool, country, cycling, dance, dancing, december, do homework, drank, draw, drawing, eight, england, evening, february, five, fly, four, france, gave, get dressed, get up, glasses, go to bed, go to school, had, have breakfast, have dinner, have lunch, help, hero, holiday, hot, invitation, italy, january, japan, july, jump, june, made, march, may, meet, monday-sunday, month, morning, moustache, night, nine, november, october, one, paint, painting, party, play, played, read, reading, ride, run, saw, september, seven, sing, singing, six, smile, spain, story, studied, study, swim, swimming, teacher, ten, three, took, travel, trip, two, villain, visit, visited, wake up, warm, wash my face, watch tv, watched, write, writing
+
+
+5) NO NECESITAN IMAGEN (usan emoji)
+------------------------------------------------------------
+Saludos, emociones, gramática y palabras abstractas. Buscar fotos para ellas
+da resultados absurdos (un pájaro para «hello»), así que se quedan con emoji.
+
+age, ago, alphabet, angry, baby, beautiful, beginning, behind, between, big, bigger, boy, brave, brother, bye-bye, came, can, can't, capital, clever, continent, count, curly, cute, daddy, dark, degrees, don't like, end, fair, family, fast, faster, favorite, finally, fine, first, free time, friend, friendly, funny, girl, go straight, going to, good afternoon, good morning, good-better-best, goodbye, grandma, grandpa, half past, happy, happy ending, heavier, hello, hi, hobby, how many, hungry, idea, in, in front of, kind, last night, last week, last weekend, letter, lighter, like, long, love, maybe, middle, more dangerous, more interesting, mummy, name, narrator, nationality, near, next, next month, next to, next week, next year, o'clock, of course, old, on, once upon a time, opposite, perhaps, plan, please, population, presentation, project, sad, short, shy, sister, sleepy, slow, small, soon, sorry, spell, straight, strong, suddenly, sure, tall, taller, thank you, the biggest, the fastest, the most dangerous, then, thin, thirsty, today, tomorrow, tonight, turn left, turn right, under, was, weather, went, were, where, will, won't, yesterday, young, yummy
+
+
+NOTA: 3 de la lista no aparecen en el currículo actual (puedes ignorarlas).
+
+============================================================
+Generado por app\tools\make_image_list.py

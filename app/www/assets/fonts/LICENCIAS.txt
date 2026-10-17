@@ -1,0 +1,15 @@
+Tipografías incluidas en esta app
+==================================
+
+Baloo 2  — Copyright (c) 2019 The Baloo 2 Project Authors
+Nunito   — Copyright (c) 2019 The Nunito Project Authors
+https://github.com/google/fonts/tree/main/ofl/baloo2
+https://github.com/google/fonts/tree/main/ofl/nunito
+
+Ambas se distribuyen bajo la SIL Open Font License, Version 1.1 (OFL).
+Se permite su uso, estudio, modificación y redistribución (incluida su
+inclusión dentro de un APK) siempre que no se vendan por separado y que se
+conserve esta nota de licencia. Texto completo de la licencia:
+https://openfontlicense.org/open-font-license-official-text/
+
+Descargadas desde Google Fonts (fonts.googleapis.com / fonts.gstatic.com).

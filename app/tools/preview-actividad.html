@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LangKids · vista previa de actividad</title>
+<link rel="stylesheet" href="../www/css/styles.css">
+<style>
+  /* en la vista previa se muestra solo la actividad, sin barra superior */
+  #topbar, #tabbar { display: none !important; }
+  #screen { padding-bottom: 24px; }
+  #screen.pantalla-actividad { display: flex; flex-direction: column; min-height: 0; }
+  #act-container { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+  #done { text-align: center; font-weight: 700; color: #2E9E5B; margin-top: 12px; }
+</style>
+</head>
+<body>
+<main id="screen" class="pantalla-actividad"></main>
+<div id="done"></div>
+
+<script>
+window.onerror = function (m, s, l, c) {
+  var d = document.createElement("pre");
+  d.id = "err";
+  d.textContent = "ERROR JS: " + m + "  (linea " + l + ":" + c + ")";
+  document.body.appendChild(d);
+};
+</script>
+<script src="../www/content/lessons.js"></script>
+<script src="../www/js/store.js"></script>
+<script src="../www/js/audio.js"></script>
+<script src="../www/js/activities.js"></script>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var tarea = q.get("t") || "sentence";
+  var clave = q.get("c") || "1.1.2";
+  var uid = clave.split(".").slice(0, 2).join(".");
+
+  // la vista previa vive en tools/: se ajustan las rutas de las fotos a www/
+  if (window.LANGKIDS_CONTENT) {
+    window.LANGKIDS_CONTENT.levels.forEach(function (lv) {
+      lv.units.forEach(function (u) {
+        u.words.forEach(function (w) { if (w.img) { w.img = "../www/" + w.img; } });
+        u.classes.forEach(function (c) {
+          c.words.forEach(function (w) { if (w.img) { w.img = "../www/" + w.img; } });
+        });
+      });
+    });
+  }
+
+  Store.load();
+  var leccion = Store.lesson(clave);
+  var unidad = Store.unit(uid);
+
+  var cont = document.getElementById("screen");
+  cont.appendChild(UI_cabecera(tarea, leccion, unidad));
+
+  // contenedor aparte: la actividad limpia su propio contenedor al arrancar
+  var stage = document.createElement("div");
+  cont.appendChild(stage);
+
+  var ctx = {
+    lesson: leccion, unit: unidad, level: Store.levelOfUnit(uid),
+    num: 1, total: 4,
+    responder: function () {}
+  };
+  Activities.start(tarea, ctx, stage, function () {
+    document.getElementById("done").textContent = "ACTIVIDAD TERMINADA ✔";
+  });
+
+  function UI_cabecera(t, l, u) {
+    var caja = document.createElement("div");
+    caja.innerHTML =
+      "<div class='act-head'><span class='step'>" + u.title + " · Clase " + l.n + "</span></div>" +
+      "<div class='act-title'>" + l.focus + "</div>" +
+      "<div class='step' style='color:#6B7A83;font-size:14px;margin-bottom:10px'>" +
+      "Vista previa · actividad '" + t + "'</div>";
+    return caja;
+  }
+})();
+</script>
+<script>
+  // permite probar el juego de ilustraciones: ?img=b
+  if (/[?&]img=b/.test(location.search) && window.Store) { window.Store.setImagenes("b"); }
+</script>
+</body>
+</html>

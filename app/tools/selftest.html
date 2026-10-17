@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>LangKids · autotest</title></head>
+<body>
+<pre id="out">ejecutando…</pre>
+<script>
+window.onerror = function (msg, src, linea, col) {
+  document.getElementById("out").textContent =
+    "ERROR DE SCRIPT: " + msg + "\n  en " + src + " linea " + linea + ":" + col;
+};
+</script>
+<script src="../www/content/lessons.js"></script>
+<script src="../www/js/store.js"></script>
+<script src="../www/js/audio.js"></script>
+<script src="../www/js/activities.js"></script>
+<script>
+(function () {
+try {
+  var r = [], ok = 0, ko = 0;
+  function t(nombre, cond, detalle) {
+    if (cond) { ok++; r.push("OK   " + nombre); }
+    else { ko++; r.push("FALLO " + nombre + (detalle ? "  -> " + detalle : "")); }
+  }
+
+  var levels = Store.levels();
+  t("hay 4 niveles", levels.length === 4, "=" + levels.length);
+
+  var unidades = 0, clases = 0, palabras = 0, sinTareas = 0, frasesMalas = 0, tareasDesconocidas = {};
+  var tareasUsadas = {};
+  levels.forEach(function (lv) {
+    t("nivel " + lv.id + " con 4 unidades", lv.units.length === 4, "=" + lv.units.length);
+    lv.units.forEach(function (u) {
+      unidades++;
+      t("unidad " + u.id + " con 5 clases", u.classes.length === 5, "=" + u.classes.length);
+      t("unidad " + u.id + " con vocabulario", u.words.length >= 8, "=" + u.words.length);
+      t("unidad " + u.id + " con objetivo", !!u.objective);
+      t("unidad " + u.id + " con estructuras", u.structures.length >= 3, "=" + u.structures.length);
+      palabras += u.words.length;
+      u.words.forEach(function (w) {
+        if (!w.en || !w.emoji) { frasesMalas++; }
+      });
+      // dos dibujos iguales hacen ambigua la actividad de parejas
+      var ims = u.words.filter(function (w) { return w.img; }).map(function (w) { return w.img; });
+      var repesImg = ims.filter(function (e, i) { return ims.indexOf(e) !== i; });
+      t("unidad " + u.id + " sin imagenes repetidas", repesImg.length === 0, repesImg.join(","));
+      var ems = u.words.map(function (w) { return w.emoji; });
+      var repes = ems.filter(function (e, i) { return ems.indexOf(e) !== i; });
+      t("unidad " + u.id + " sin dibujos repetidos", repes.length === 0, repes.join(","));
+      u.classes.forEach(function (c) {
+        clases++;
+        if (!c.tasks || !c.tasks.length) { sinTareas++; }
+        if (!c.words || !c.words.length) { sinTareas++; }
+        var emsC = (c.words || []).map(function (w) { return w.emoji; });
+        var repesC = emsC.filter(function (e, i) { return emsC.indexOf(e) !== i; });
+        t("clase " + c.key + " sin dibujos repetidos", repesC.length === 0, repesC.join(","));
+        (c.tasks || []).forEach(function (k) {
+          tareasUsadas[k] = true;
+          if (!Activities.existe(k)) { tareasDesconocidas[k] = true; }
+        });
+        if (c.sentence) {
+          var n = c.sentence.split(/\s+/).length;
+          if (n < 3 || n > 9) { frasesMalas++; }
+        }
+      });
+    });
+  });
+  t("hay 16 unidades", unidades === 16, "=" + unidades);
+  t("hay 80 clases", clases === 80, "=" + clases);
+  t("todas las clases tienen palabras y actividades", sinTareas === 0, "=" + sinTareas);
+  t("todas las palabras tienen texto y emoji", frasesMalas === 0, "=" + frasesMalas);
+  t("no hay actividades desconocidas", Object.keys(tareasDesconocidas).length === 0,
+    JSON.stringify(tareasDesconocidas));
+  t("se usan las 6 actividades", Object.keys(tareasUsadas).length === 6,
+    Object.keys(tareasUsadas).join(","));
+
+  // --- desbloqueo y progreso
+  Store.reset();
+  t("la primera clase esta abierta", Store.isUnlocked("1.1.1") === true);
+  t("la segunda clase esta bloqueada", Store.isUnlocked("1.1.2") === false);
+  t("nada completado al inicio", Store.doneCount() === 0);
+  Store.finishLesson("1.1.1", 3);
+  t("la clase 1 queda completada", Store.isDone("1.1.1") === true);
+  t("la clase 1 tiene 3 estrellas", Store.starsOf("1.1.1") === 3);
+  t("se abre la clase 2", Store.isUnlocked("1.1.2") === true);
+  t("total de estrellas = 3", Store.totalStars() === 3);
+  t("estrellas posibles = 240", Store.maxStars() === 240, "=" + Store.maxStars());
+  Store.finishLesson("1.1.1", 1);
+  t("no se bajan las estrellas ya ganadas", Store.starsOf("1.1.1") === 3);
+  t("no se duplica la clase completada", Store.doneCount() === 1, "=" + Store.doneCount());
+  t("el progreso de unidad cuenta 1/5", Store.unitProgress("1.1").done === 1);
+  t("el progreso de nivel cuenta 1/20", Store.levelProgress(1).done === 1);
+  t("la insignia no se gana antes de tiempo", Store.checkBadge(1) === null);
+
+  // --- completar un nivel entero -> insignia
+  Store.level(1).units.forEach(function (u) {
+    u.classes.forEach(function (c) { Store.finishLesson(c.key, 2); });
+  });
+  var insignia = Store.checkBadge(1);
+  t("se gana la insignia del nivel 1", !!insignia, String(insignia));
+  t("la insignia queda registrada", Store.hasBadge(1) === true);
+  t("el nivel 1 queda 20/20", Store.levelProgress(1).done === 20);
+  t("las 80 clases siguen contadas", Store.flatLessons().length === 80);
+
+  // --- reinicio
+  Store.reset();
+  t("reiniciar borra el progreso", Store.doneCount() === 0 && Store.totalStars() === 0);
+
+  r.unshift(ko === 0 ? "RESULTADO: TODO OK (" + ok + " comprobaciones)"
+                     : "RESULTADO: " + ko + " FALLOS de " + (ok + ko) + " comprobaciones");
+  r.push("");
+  r.push("palabras totales: " + palabras + " | frases con problema: " + frasesMalas);
+  document.getElementById("out").textContent = r.join("\n");
+} catch (e) {
+  document.getElementById("out").textContent =
+    "EXCEPCION: " + (e && e.message ? e.message : e) + "\n" + (e && e.stack ? e.stack : "");
+}
+})();
+</script>
+</body>
+</html>

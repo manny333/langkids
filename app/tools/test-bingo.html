@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bingo test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 900px; height: 560px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/bingo.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    var palabras = [
+      "apple", "banana", "grapes", "bear", "ball", "doll",
+      "car", "bus", "bike", "bird", "cat", "dog"
+    ].map(function (p) { return { en: p, emoji: "❓" }; });
+
+    var cont = document.getElementById("zona");
+    var ganado = null;
+    var juego = Bingo.montar(cont, { palabras: palabras }, function (r) { ganado = r; });
+
+    ok("se monta el juego", !!juego);
+    ok("nueve celdas", cont.querySelectorAll(".bingo-celda").length === 9);
+    ok("nueve palabras en el orden", juego.orden.length === 9);
+
+    var nombres = {};
+    var repetidas = 0;
+    juego.orden.forEach(function (o) {
+      if (nombres[o.en]) { repetidas++; }
+      nombres[o.en] = true;
+    });
+    ok("no hay palabras repetidas", repetidas === 0);
+
+    var celdas = [].slice.call(cont.querySelectorAll(".bingo-celda"));
+    var palabrasTablero = celdas.map(function (c) { return c.dataset.palabra; });
+    var unicas = {};
+    palabrasTablero.forEach(function (p) { unicas[p] = true; });
+    ok("nueve tarjetas distintas", Object.keys(unicas).length === 9);
+
+    // fallo: pulsar una tarjeta que no es la palabra actual
+    var actual = juego.actual();
+    var otra = celdas.filter(function (c) { return c.dataset.palabra !== actual; })[0];
+    otra.click();
+    ok("el fallo no marca la tarjeta", !otra.classList.contains("hecha"));
+    ok("el fallo se cuenta", juego.fallos() === 1);
+
+    // acierto: pulsar la correcta
+    var correcta = celdas.filter(function (c) { return c.dataset.palabra === actual; })[0];
+    correcta.click();
+    ok("el acierto marca la tarjeta", correcta.classList.contains("hecha"));
+    ok("el acierto cuenta", juego.aciertos() === 1);
+
+    // completar las nueve, esperando a que avance el turno entre aciertos
+    var siguientes = juego.orden.slice(1).map(function (o) { return o.en; });
+    var i = 0;
+    function paso() {
+      if (i >= siguientes.length) {
+        setTimeout(function () {
+          ok("completa las nueve", juego.aciertos() === 9, "n=" + juego.aciertos());
+          ok("avisa del bingo", !!ganado, ganado ? "fallos=" + ganado.fallos : "");
+          var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+          log.push("");
+          log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+          document.getElementById("out").textContent = log.join("\n");
+        }, 400);
+        return;
+      }
+      var p = siguientes[i++];
+      var celda = celdas.filter(function (c) { return c.dataset.palabra === p; })[0];
+      if (celda) { celda.click(); }
+      setTimeout(paso, 60);
+    }
+    setTimeout(paso, 900);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

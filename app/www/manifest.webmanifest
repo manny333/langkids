@@ -1,0 +1,14 @@
+{
+  "name": "LangKids English",
+  "short_name": "LangKids",
+  "description": "Inglés para niños de 5 a 11 años: 4 niveles, 16 unidades y 80 clases interactivas.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F9FB",
+  "theme_color": "#1F6F8B",
+  "lang": "es",
+  "icons": [
+    { "src": "assets/icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" }
+  ]
+}

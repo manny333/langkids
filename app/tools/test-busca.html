@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>I spy test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 1000px; height: 560px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/busca.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    var nombres = ["apple", "banana", "grapes", "bear", "ball", "doll", "car", "bus", "bike", "bird"];
+    var palabras = nombres.map(function (p) { return { en: p, emoji: "❓" }; });
+
+    var cont = document.getElementById("zona");
+    var final = null;
+    var juego = Busca.montar(cont, { palabras: palabras, rondas: 3, objetos: 6 }, function (r) { final = r; });
+
+    ok("se monta el juego", !!juego);
+    ok("seis objetos en la escena", cont.querySelectorAll(".busca-objeto").length === 6);
+    ok("hay un objetivo", !!juego.objetivo(), juego.objetivo());
+
+    var objetos = [].slice.call(cont.querySelectorAll(".busca-objeto"));
+    var objetivo = juego.objetivo();
+    var cuantosObjetivo = objetos.filter(function (o) { return o.dataset.palabra === objetivo; }).length;
+    ok("el objetivo está en la escena exactamente una vez", cuantosObjetivo === 1, "n=" + cuantosObjetivo);
+
+    // todos los objetos son distintos
+    var nombresEscena = objetos.map(function (o) { return o.dataset.palabra; });
+    ok("seis objetos distintos", new Set(nombresEscena).size === 6, nombresEscena.join(","));
+
+    // fallo
+    var malo = objetos.filter(function (o) { return o.dataset.palabra !== objetivo; })[0];
+    malo.click();
+    ok("el fallo se cuenta", juego.fallos() === 1);
+    ok("el fallo no avanza", juego.ronda() === 0, "ronda=" + juego.ronda());
+    ok("el fallo no marca encontrado", !malo.classList.contains("encontrado"));
+
+    var ciclos = 0;
+    function jugar() {
+      if (final || ciclos > 15) {
+        ok("completa las rondas", !!final, final ? JSON.stringify(final) : "sin final");
+        ok("marca el acierto", true);
+        var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+        log.push("");
+        log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+        document.getElementById("out").textContent = log.join("\n");
+        return;
+      }
+      ciclos++;
+      juego._acertar();
+      setTimeout(jugar, 1200);
+    }
+    setTimeout(jugar, 400);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+﻿grupo;palabra;archivo;unidad;estado
+ANIMALES;cat;cat.png;1.4;LISTA
+ANIMALES;dog;dog.png;1.4;LISTA
+ANIMALES;bird;bird.png;1.4;LISTA
+ANIMALES;fish;fish.png;1.4;LISTA
+ANIMALES;rabbit;rabbit.png;1.4;LISTA
+ANIMALES;cow;cow.png;1.4;LISTA
+ANIMALES;pig;pig.png;1.4;LISTA
+ANIMALES;horse;horse.png;1.4;LISTA
+ANIMALES;duck;duck.png;1.4;LISTA
+ANIMALES;sheep;sheep.png;1.4;LISTA
+ANIMALES;lion;lion.png;2.4;LISTA
+ANIMALES;tiger;tiger.png;2.4;LISTA
+ANIMALES;elephant;elephant.png;2.4;LISTA
+ANIMALES;monkey;monkey.png;2.4;LISTA
+ANIMALES;giraffe;giraffe.png;2.4;LISTA
+ANIMALES;snake;snake.png;2.4;LISTA
+ANIMALES;crocodile;crocodile.png;2.4;LISTA
+ANIMALES;penguin;penguin.png;2.4;LISTA
+ANIMALES;bear;bear.png;2.4;LISTA
+ANIMALES;zebra;zebra.png;2.4;LISTA
+ANIMALES;spiders;spiders.png;—;FALTA
+COMIDA Y BEBIDA;apple;apple.png;2.3;LISTA
+COMIDA Y BEBIDA;banana;banana.png;2.3;LISTA
+COMIDA Y BEBIDA;orange;orange.png;1.2;LISTA
+COMIDA Y BEBIDA;grapes;grapes.png;2.3;LISTA
+COMIDA Y BEBIDA;strawberry;strawberry.png;2.3;LISTA
+COMIDA Y BEBIDA;milk;milk.png;2.3;LISTA
+COMIDA Y BEBIDA;water;water.png;2.3;LISTA
+COMIDA Y BEBIDA;juice;juice.png;2.3;LISTA
+COMIDA Y BEBIDA;bread;bread.png;2.3;LISTA
+COMIDA Y BEBIDA;cheese;cheese.png;2.3;LISTA
+COMIDA Y BEBIDA;egg;egg.png;2.3;LISTA
+COMIDA Y BEBIDA;rice;rice.png;2.3;LISTA
+COMIDA Y BEBIDA;chicken;chicken.png;2.3;LISTA
+COMIDA Y BEBIDA;salad;salad.png;2.3;LISTA
+COMIDA Y BEBIDA;cake;cake.png;2.3;LISTA
+COMIDA Y BEBIDA;ice cream;ice-cream.png;2.3;LISTA
+COMIDA Y BEBIDA;sandwich;sandwich.png;—;FALTA
+ROPA;T-shirt;t-shirt.png;2.3;LISTA
+ROPA;trousers;trousers.png;2.3;LISTA
+ROPA;dress;dress.png;2.3;LISTA
+ROPA;skirt;skirt.png;2.3;LISTA
+ROPA;shoes;shoes.png;2.3;LISTA
+ROPA;socks;socks.png;2.3;LISTA
+ROPA;hat;hat.png;2.3;LISTA
+ROPA;jacket;jacket.png;2.3;LISTA
+ROPA;shorts;shorts.png;2.3;LISTA
+ROPA;scarf;scarf.png;—;FALTA
+CASA;house;house.png;2.2;LISTA
+CASA;bedroom;bedroom.png;2.2;LISTA
+CASA;kitchen;kitchen.png;2.2;LISTA
+CASA;bathroom;bathroom.png;2.2;LISTA
+CASA;living room;living-room.png;2.2;LISTA
+CASA;garden;garden.png;2.2;LISTA
+CASA;bed;bed.png;2.2;LISTA
+CASA;table;table.png;2.2;LISTA
+CASA;sofa;sofa.png;2.2;LISTA
+CASA;TV;tv.png;2.2;LISTA
+CASA;fridge;fridge.png;2.2;LISTA
+CASA;door;door.png;2.2;LISTA
+CASA;window;window.png;2.2;LISTA
+AULA Y ÚTILES;pencil;pencil.png;2.2;LISTA
+AULA Y ÚTILES;pen;pen.png;2.2;LISTA
+AULA Y ÚTILES;crayon;crayon.png;1.2;LISTA
+AULA Y ÚTILES;book;book.png;2.2;LISTA
+AULA Y ÚTILES;notebook;notebook.png;2.2;LISTA
+AULA Y ÚTILES;ruler;ruler.png;2.2;LISTA
+AULA Y ÚTILES;rubber;rubber.png;2.2;LISTA
+AULA Y ÚTILES;scissors;scissors.png;2.2;LISTA
+AULA Y ÚTILES;bag;bag.png;2.2;LISTA
+AULA Y ÚTILES;desk;desk.png;2.2;LISTA
+AULA Y ÚTILES;chair;chair.png;2.2;LISTA
+AULA Y ÚTILES;board;board.png;2.2;LISTA
+JUGUETES;ball;ball.png;1.4;LISTA
+JUGUETES;doll;doll.png;1.4;LISTA
+JUGUETES;teddy bear;teddy-bear.png;1.4;LISTA
+JUGUETES;train;train.png;1.4;LISTA
+JUGUETES;kite;kite.png;1.4;LISTA
+JUGUETES;bike;bike.png;1.4;LISTA
+JUGUETES;blocks;blocks.png;1.4;LISTA
+CUERPO;head;head.png;1.3;LISTA
+CUERPO;hair;hair.png;1.3;LISTA
+CUERPO;eyes;eyes.png;1.3;LISTA
+CUERPO;ears;ears.png;1.3;LISTA
+CUERPO;nose;nose.png;1.3;LISTA
+CUERPO;mouth;mouth.png;1.3;LISTA
+CUERPO;teeth;teeth.png;1.3;LISTA
+CUERPO;hands;hands.png;1.3;LISTA
+CUERPO;arms;arms.png;1.3;LISTA
+CUERPO;legs;legs.png;1.3;LISTA
+CUERPO;feet;feet.png;1.3;LISTA
+CUERPO;tummy;tummy.png;1.3;LISTA
+TRANSPORTE;bus;bus.png;3.2;LISTA
+TRANSPORTE;car;car.png;1.4;LISTA
+TRANSPORTE;plane;plane.png;3.2;LISTA
+TRANSPORTE;boat;boat.png;3.2;LISTA
+TRANSPORTE;taxi;taxi.png;3.2;LISTA
+TRANSPORTE;underground;underground.png;3.2;LISTA
+LUGARES;school;school.png;3.2;LISTA
+LUGARES;park;park.png;3.2;LISTA
+LUGARES;hospital;hospital.png;3.2;LISTA
+LUGARES;supermarket;supermarket.png;3.2;LISTA
+LUGARES;library;library.png;3.2;LISTA
+LUGARES;cinema;cinema.png;3.2;LISTA
+LUGARES;museum;museum.png;3.2;LISTA
+LUGARES;bank;bank.png;3.2;LISTA
+LUGARES;café;caf.png;3.2;LISTA
+LUGARES;shop;shop.png;3.2;LISTA
+LUGARES;street;street.png;3.2;LISTA
+LUGARES;square;square.png;3.2;LISTA
+NATURALEZA Y CLIMA;mountain;mountain.png;4.3;LISTA
+NATURALEZA Y CLIMA;ocean;ocean.png;4.3;LISTA
+NATURALEZA Y CLIMA;desert;desert.png;4.3;LISTA
+NATURALEZA Y CLIMA;jungle;jungle.png;4.3;LISTA
+NATURALEZA Y CLIMA;sunny;sunny.png;2.1;LISTA
+NATURALEZA Y CLIMA;rainy;rainy.png;2.1;LISTA
+NATURALEZA Y CLIMA;cloudy;cloudy.png;2.1;LISTA
+NATURALEZA Y CLIMA;windy;windy.png;2.1;LISTA
+NATURALEZA Y CLIMA;snowy;snowy.png;2.1;LISTA
+NATURALEZA Y CLIMA;stormy;stormy.png;3.4;LISTA
+NATURALEZA Y CLIMA;foggy;foggy.png;3.4;LISTA
+NATURALEZA Y CLIMA;spring;spring.png;3.4;LISTA
+NATURALEZA Y CLIMA;summer;summer.png;3.4;LISTA
+NATURALEZA Y CLIMA;autumn;autumn.png;3.4;LISTA
+NATURALEZA Y CLIMA;winter;winter.png;3.4;LISTA
+DEPORTES;football;football.png;3.4;LISTA
+DEPORTES;basketball;basketball.png;3.4;LISTA
+DEPORTES;tennis;tennis.png;3.4;LISTA
+COLORES Y FORMAS;red;red.png;1.2;LISTA
+COLORES Y FORMAS;blue;blue.png;1.2;LISTA
+COLORES Y FORMAS;yellow;yellow.png;1.2;LISTA
+COLORES Y FORMAS;green;green.png;1.2;LISTA
+COLORES Y FORMAS;purple;purple.png;1.2;LISTA
+COLORES Y FORMAS;pink;pink.png;1.2;LISTA
+COLORES Y FORMAS;brown;brown.png;1.2;LISTA
+COLORES Y FORMAS;black;black.png;1.2;LISTA
+COLORES Y FORMAS;white;white.png;1.2;LISTA

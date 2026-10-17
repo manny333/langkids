@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What's missing test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 900px; height: 520px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/falta.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    var palabras = ["apple", "banana", "grapes", "bear", "ball", "doll", "car", "bus", "bike", "bird"]
+      .map(function (p) { return { en: p, emoji: "❓" }; });
+
+    var cont = document.getElementById("zona");
+    var final = null;
+    // espera 0: pasa directo a la pregunta, para poder probar
+    var juego = Falta.montar(cont, { palabras: palabras, rondas: 4, espera: 0 }, function (r) { final = r; });
+
+    ok("se monta el juego", !!juego);
+
+    setTimeout(function () {
+      try {
+        ok("cuatro huecos", cont.querySelectorAll(".falta-hueco").length === 4);
+        ok("un hueco vacío", cont.querySelectorAll(".falta-hueco.vacio").length === 1);
+        ok("cuatro opciones", cont.querySelectorAll(".falta-opcion").length === 4);
+        ok("está en fase de pregunta", juego.fase() === "preguntando", juego.fase());
+
+        var faltante = juego.faltante();
+        ok("sabe cuál falta", !!faltante, faltante || "");
+
+        // pulsar una opción incorrecta
+        var opciones = [].slice.call(cont.querySelectorAll(".falta-opcion"));
+        var mala = opciones.filter(function (o) { return o.dataset.palabra !== faltante; })[0];
+        if (mala) {
+          mala.click();
+          ok("el fallo se cuenta", juego.fallos() === 1);
+          ok("el fallo no resuelve", juego.fase() === "preguntando", juego.fase());
+        }
+
+        // completar las 4 rondas acertando
+        var vueltas = 0;
+        function jugar() {
+          if (final || vueltas > 40) {
+            ok("termina las 4 rondas", !!final, final ? JSON.stringify(final) : "sin final");
+            ok("cuenta los aciertos", final && final.aciertos === final.rondas,
+               final ? "aciertos=" + final.aciertos : "");
+            var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+            log.push("");
+            log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+            document.getElementById("out").textContent = log.join("\n");
+            return;
+          }
+          vueltas++;
+          var f = juego.faltante();
+          var lista = [].slice.call(cont.querySelectorAll(".falta-opcion"));
+          var buena = lista.filter(function (o) { return o.dataset.palabra === f; })[0];
+          if (buena) { buena.click(); }
+          setTimeout(jugar, 120);
+        }
+        setTimeout(jugar, 100);
+      } catch (e) {
+        document.getElementById("out").textContent = log.join("\n") + "\nEXCEPCIÓN: " + e.message;
+      }
+    }, 120);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

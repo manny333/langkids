@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+#  Artefactos de compilación (se regeneran con app/tools/build-apk.ps1)
+# ---------------------------------------------------------------------------
+app/build/
+app/dist/
+*.apk
+*.aab
+*.zip
+
+# ---------------------------------------------------------------------------
+#  Imágenes en bruto de las que salen las ilustraciones.
+#  Pesan cientos de MB y no hacen falta para compilar: las que usa la app
+#  ya están convertidas en app/www/assets/img/*.webp
+# ---------------------------------------------------------------------------
+img-ia/
+img-ia-v2/
+dsh-image-gen/
+
+# hojas de revisión generadas por app/tools/hojas_v2.py
+docs/revision/
+
+# ---------------------------------------------------------------------------
+#  Sistema
+# ---------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp

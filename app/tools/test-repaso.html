@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Smart review test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 900px; height: 560px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/store.js"></script>
+<script src="../www/js/repaso.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    // Store necesita contenido; probamos la memoria por palabra directamente
+    var record = Store.notaPalabra;
+    ok("el Store expone notaPalabra", typeof record === "function");
+    ok("el Store expone palabrasPrioritarias", typeof Store.palabrasPrioritarias === "function");
+
+    var palabras = ["apple", "banana", "grapes", "bear", "ball", "doll", "car", "bus", "bike", "bird"]
+      .map(function (p) { return { en: p, emoji: "❓" }; });
+
+    // marcamos dos palabras como difíciles
+    if (typeof record === "function") {
+      record("banana", false);
+      record("banana", false);
+      record("bear", false);
+      record("apple", true); record("apple", true); record("apple", true);
+    }
+
+    var prio = Store.palabrasPrioritarias(palabras, 4).map(function (p) { return p.en; });
+    ok("las falladas van primero", prio[0] === "banana" || prio[0] === "bear", prio.join(","));
+    ok("las acertadas quedan atrás", prio.indexOf("apple") > 0 || prio.indexOf("apple") === -1,
+       "posicion=" + prio.indexOf("apple"));
+
+    var cont = document.getElementById("zona");
+    var final = null;
+    var juego = Repaso.montar(cont, { palabras: palabras, cuantas: 4 }, function (r) { final = r; });
+
+    ok("se monta la sesión", !!juego);
+    ok("cuatro opciones por pregunta", cont.querySelectorAll(".repaso-opcion").length === 4);
+    ok("empieza con escucha", cont.querySelectorAll(".repaso-foto").length === 0);
+
+    // primera ronda: escucha (sin foto grande)
+    var primera = juego.elegidas()[0];
+    // se copian los números: notaPalabra muta el mismo objeto
+    var n0 = Store.notaDe(primera) || { a: 0, f: 0 };
+    var antesA = n0.a;
+    juego._acertar();
+    var notaDespues = Store.notaDe(primera) || { a: 0, f: 0 };
+    var notaAntes = { a: antesA, f: n0.f };
+    ok("anota el acierto en la memoria",
+       (notaDespues ? notaDespues.a : 0) > (notaAntes ? notaAntes.a : 0),
+       "antes=" + JSON.stringify(notaAntes) + " despues=" + JSON.stringify(notaDespues));
+
+    var vueltas = 0;
+    function seguir() {
+      if (final || vueltas > 30) {
+        ok("completa la sesión", !!final, final ? JSON.stringify(final) : "sin final");
+        // segunda ronda debería ser de lectura (con foto)
+        var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+        log.push("");
+        log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+        document.getElementById("out").textContent = log.join("\n");
+        return;
+      }
+      vueltas++;
+      setTimeout(function () {
+        // en la ronda 2 debe haber foto grande (lectura)
+        if (vueltas === 1) {
+          ok("alterna a lectura con foto", cont.querySelectorAll(".repaso-foto").length === 1,
+             "fotos=" + cont.querySelectorAll(".repaso-foto").length);
+        }
+        juego._acertar();
+        seguir();
+      }, 1000);
+    }
+    setTimeout(seguir, 1200);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

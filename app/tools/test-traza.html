@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Trace test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 900px; height: 460px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/traza.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  function rayar(lienzo, rejilla) {
+    // traza una rejilla de trazos por todo el lienzo para cubrir las letras
+    var caja = lienzo.getBoundingClientRect();
+    function ev(tipo, x, y) {
+      lienzo.dispatchEvent(new PointerEvent(tipo, {
+        clientX: caja.left + x, clientY: caja.top + y, pointerId: 1, bubbles: true
+      }));
+    }
+    var paso = caja.height / rejilla;
+    for (var fila = 0; fila < rejilla; fila++) {
+      var y = paso * (fila + 0.5);
+      ev("pointerdown", 10, y);
+      for (var k = 1; k <= 12; k++) { ev("pointermove", 10 + (caja.width - 20) * k / 12, y); }
+      ev("pointerup", caja.width - 10, y);
+    }
+  }
+
+  try {
+    var palabras = [
+      { en: "cat", emoji: "🐱" }, { en: "dog", emoji: "🐶" }, { en: "sun", emoji: "☀️" }
+    ];
+    var cont = document.getElementById("zona");
+    var final = null;
+    var juego = Traza.montar(cont, { palabras: palabras, cuantas: 2, meta: 0.2 }, function (r) { final = r; });
+
+    ok("se monta el juego", !!juego);
+    ok("empieza en la primera palabra", juego.palabra() === "cat" || juego.palabra() === "dog" || juego.palabra() === "sun",
+       juego.palabra());
+    ok("cobertura inicial cero", juego.cobertura() === 0);
+
+    setTimeout(function () {
+      try {
+        var lienzo = cont.querySelector(".traza-lienzo");
+        ok("hay lienzo", !!lienzo);
+
+        rayar(lienzo, 6);
+        var c1 = juego.cobertura();
+        ok("los trazos suben la cobertura", c1 > 0, "cobertura=" + c1.toFixed(2));
+
+        // completar la primera y esperar a la siguiente
+        juego._forzar();
+        ok("marca la palabra como hecha", juego.hechas() >= 1, "hechas=" + juego.hechas());
+
+        setTimeout(function () {
+          try {
+            ok("pasa a la siguiente ronda", juego.ronda() >= 1, "ronda=" + juego.ronda());
+            var lienzo2 = cont.querySelector(".traza-lienzo");
+            if (lienzo2) { rayar(lienzo2, 6); }
+            juego._forzar();
+            setTimeout(function () {
+              ok("termina las dos palabras", !!final, final ? JSON.stringify(final) : "sin final");
+              var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+              log.push("");
+              log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+              document.getElementById("out").textContent = log.join("\n");
+            }, 1400);
+          } catch (e) {
+            document.getElementById("out").textContent = log.join("\n") + "\nEXCEPCIÓN: " + e.message;
+          }
+        }, 1400);
+      } catch (e) {
+        document.getElementById("out").textContent = log.join("\n") + "\nEXCEPCIÓN: " + e.message;
+      }
+    }, 400);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

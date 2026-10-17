@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Wheel test</title>
+<style>body{font:14px/1.4 system-ui,sans-serif;margin:0;padding:12px;background:#faf7f0}
+#zona{width:900px;height:560px;display:flex}
+pre{background:#fff;border:1px solid #e6ddc9;border-radius:10px;padding:10px;margin-top:12px}</style></head><body>
+<div id="zona"></div><pre id="out">running…</pre>
+<script src="../www/js/rueda.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(n, c, e) { log.push((c ? "OK    " : "FALLO ") + n + (e ? "   (" + e + ")" : "")); }
+  try {
+    var palabras = ["apple","banana","grapes","bear","ball","doll","car","bus"]
+      .map(function (p) { return { en: p, emoji: "❓" }; });
+    var cont = document.getElementById("zona");
+    var fin = null;
+    var j = Rueda.montar(cont, { palabras: palabras, giros: 2, rapido: true }, function (r) { fin = r; });
+
+    ok("se monta", !!j);
+    ok("seis sectores con dibujo", cont.querySelectorAll(".rueda-icono").length === 6);
+    ok("seis palabras distintas", new Set(j.seleccion()).size === 6, j.seleccion().join(","));
+    ok("empieza sin resultado", j.actual() === null);
+
+    j._girar();
+    setTimeout(function () {
+      ok("tras girar hay palabra", !!j.actual(), "actual=" + j.actual());
+      ok("la palabra está en la ruleta", j.seleccion().indexOf(j.actual()) !== -1);
+      ok("el resultado se ve", cont.querySelectorAll(".rueda-palabra").length === 1);
+      // tocar la zona marca la palabra como dicha y vuelve a girar
+      cont.querySelector(".rueda-panel").click();
+      setTimeout(function () {
+        ok("cuenta la palabra dicha", j.hechos() === 1, "hechos=" + j.hechos());
+        cont.querySelector(".rueda-panel").click();
+        setTimeout(function () {
+          ok("termina a los dos giros", !!fin, fin ? JSON.stringify(fin) : "sin final");
+          var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+          log.push("");
+          log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+          document.getElementById("out").textContent = log.join("\n");
+        }, 1200);
+      }, 1200);
+    }, 600);
+    return;
+  } catch (e) { log.push("EXCEPCIÓN: " + e.message); }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script></body></html>

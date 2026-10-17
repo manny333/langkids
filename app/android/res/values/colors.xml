@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal">#1F6F8B</color>
+    <color name="teal_dark">#14556C</color>
+    <color name="orange">#D2691E</color>
+    <color name="fondo">#F4F9FB</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="ic_launcher_background">#1F6F8B</color>
+</resources>

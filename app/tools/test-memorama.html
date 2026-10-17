@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory game test</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; background: #faf7f0; color: #2b2d42; }
+  #zona { width: 900px; height: 520px; display: flex; }
+  pre { background: #fff; border: 1px solid #e6ddc9; border-radius: 10px; padding: 10px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<div id="zona"></div>
+<pre id="out">running…</pre>
+<script src="../www/js/memorama.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(nombre, cond, extra) {
+    log.push((cond ? "OK    " : "FALLO ") + nombre + (extra ? "   (" + extra + ")" : ""));
+    return cond;
+  }
+
+  try {
+    var cont = document.getElementById("zona");
+    var ganado = null;
+    var juego = Memorama.montar(cont, "animales", function (r) { ganado = r; });
+
+    ok("hay un juego montado", !!juego);
+    ok("6 parejas", juego && juego.totalPares === 6);
+    ok("12 cartas en el tablero", cont.querySelectorAll(".memo-carta").length === 12);
+    ok("todas empiezan tapadas", cont.querySelectorAll(".memo-carta.abierta").length === 0);
+
+    var cartas = [].slice.call(cont.querySelectorAll(".memo-carta"));
+    // emparejar todas: dos a dos por su atributo data-par
+    var porPar = {};
+    cartas.forEach(function (c) {
+      var p = c.dataset.par;
+      (porPar[p] = porPar[p] || []).push(c);
+    });
+    var pares = Object.keys(porPar);
+    ok("6 grupos de pareja", pares.length === 6);
+
+    // primer par: se voltean las dos y deben quedar hechas
+    var a = porPar[pares[0]][0], b = porPar[pares[0]][1];
+    a.click();
+    ok("la primera carta se abre", a.classList.contains("abierta"));
+    b.click();
+    ok("el acierto deja las dos marcadas", a.classList.contains("hecha") && b.classList.contains("hecha"));
+    ok("cuenta una pareja encontrada", juego.encontradas() === 1);
+    ok("cuenta un intento", juego.intentos() === 1);
+
+    // fallo: dos cartas de parejas distintas deben cerrarse
+    var c1 = porPar[pares[1]][0], c2 = porPar[pares[2]][0];
+    c1.click(); c2.click();
+    ok("el fallo cuenta intento", juego.intentos() === 2);
+    ok("el fallo deja las cartas abiertas un momento", c1.classList.contains("abierta"));
+
+    // el resto de parejas, una a una
+    setTimeout(function () {
+      try {
+        ok("tras el fallo se cierran", !c1.classList.contains("abierta") && !c2.classList.contains("abierta"));
+        for (var i = 1; i < pares.length; i++) {
+          // pares[1] y pares[2] ya se voltearon pero no estaban emparejados
+          var par = porPar[pares[i]];
+          par[0].click(); par[1].click();
+        }
+        setTimeout(function () {
+          ok("gana al completar 6 parejas", juego.encontradas() === 6, "n=" + juego.encontradas());
+          ok("avisa del final", !!ganado, ganado ? "intentos=" + ganado.intentos : "");
+          var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+          log.push("");
+          log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+          document.getElementById("out").textContent = log.join("\n");
+        }, 900);
+      } catch (e) {
+        document.getElementById("out").textContent = log.join("\n") + "\nEXCEPCIÓN: " + e.message;
+      }
+    }, 900);
+    return;
+  } catch (e) {
+    log.push("EXCEPCIÓN: " + (e && e.message ? e.message : e));
+  }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script>
+</body>
+</html>

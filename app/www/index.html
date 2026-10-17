@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#1F6F8B">
+<title>LangKids English</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===================== PANTALLA: INICIO ===================== -->
+<header id="topbar">
+  <button class="icon-btn" id="btn-home" aria-label="Inicio">🏠</button>
+  <div id="topbar-title">LangKids</div>
+  <div id="topbar-stars" title="Estrellas">⭐ <span id="star-count">0</span></div>
+  <button class="icon-btn gear" id="btn-ajustes" aria-label="Ajustes">⚙️</button>
+</header>
+
+<main id="screen"></main>
+
+
+
+<!-- Aviso flotante (aciertos, voz no disponible, etc.) -->
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- Celebración a pantalla completa -->
+<div id="celebrate" class="hidden">
+  <div class="celebrate-box">
+    <div id="celebrate-emoji">🎉</div>
+    <h2 id="celebrate-title">¡Muy bien!</h2>
+    <p id="celebrate-text"></p>
+    <div id="celebrate-stars"></div>
+    <button class="big-btn" id="celebrate-btn">Continue</button>
+  </div>
+</div>
+
+<div id="confirm" class="hidden">
+  <div class="celebrate-box small">
+    <h2 id="confirm-title">¿Seguro?</h2>
+    <p id="confirm-text"></p>
+    <div class="row">
+      <button class="big-btn ghost" id="confirm-no">No</button>
+      <button class="big-btn" id="confirm-yes">Sí</button>
+    </div>
+  </div>
+</div>
+
+<script src="content/lessons.js"></script>
+<script src="content/credits.js"></script>
+  <script src="content/imagenes-v2.js"></script>
+  <script src="content/imagenes-memo.js"></script>
+  <script src="content/imagenes-mazos.js"></script>
+  <script src="content/imagenes-niveles.js"></script>
+  <script src="content/imagenes-inicio.js"></script>
+<script src="js/store.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/activities.js"></script>
+<script src="js/paint.js"></script>
+  <script src="js/memorama.js"></script>
+  <script src="js/bingo.js"></script>
+  <script src="js/falta.js"></script>
+  <script src="js/traza.js"></script>
+  <script src="js/repaso.js"></script>
+  <script src="js/domino.js"></script>
+  <script src="js/busca.js"></script>
+  <script src="js/rueda.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
