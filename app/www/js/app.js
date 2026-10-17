@@ -277,6 +277,14 @@ opcion("progreso", "📊", "My Progress", Store.totalStars() + " ⭐ of " + Stor
     screen.appendChild(volver);
     screen.appendChild(el("div", null, "<div style='height:14px'></div>"));
 
+    var cuento = cuentosDeUnidad(uid);
+    if (cuento) {
+      var bCuento = el("button", "big-btn cuento-acceso", "📖 Read the story: " + cuento.titulo);
+      bCuento.onclick = function () { location.hash = "#/cuento/" + uid; };
+      screen.appendChild(bCuento);
+      screen.appendChild(el("div", null, "<div style='height:10px'></div>"));
+    }
+
     screen.appendChild(el("h2", null, "Classes"));
     var listaClases = el("div", "lista");
     u.classes.forEach(function (c) {
@@ -705,6 +713,40 @@ opcion("progreso", "📊", "My Progress", Store.totalStars() + " ⭐ of " + Stor
     screen.appendChild(grid);
   }
 
+
+
+  /* ---------------------------------------------------- cuento de la unidad */
+  function cuentosDeUnidad(uid) {
+    var todos = global.LANGKIDS_CUENTOS || {};
+    return todos[uid] || null;
+  }
+
+  function pintarCuento(uid) {
+    screen.innerHTML = "";
+    screen.classList.add("pantalla-memo");
+    var cuento = cuentosDeUnidad(uid);
+    if (!cuento) { location.hash = "#/unidad/" + uid; return; }
+    var u = Store.unit(uid);
+
+    var cab = el("div", "paint-cabecera");
+    var atras = el("button", "paint-volver", "‹");
+    atras.setAttribute("aria-label", "back");
+    atras.onclick = function () { location.hash = "#/unidad/" + uid; };
+    cab.appendChild(atras);
+    cab.appendChild(el("div", "paint-titulo", "📖 " + cuento.titulo));
+    screen.appendChild(cab);
+
+    global.Cuento.montar(screen, { cuento: cuento }, function (r) {
+      celebrar({
+        emoji: "📖",
+        titulo: "Story finished! Congratulations!",
+        texto: "You answered " + r.aciertos + " of " + r.preguntas + " questions" +
+               (r.fallos ? " with " + r.fallos + (r.fallos === 1 ? " miss." : " misses.") : "."),
+        estrellas: r.fallos === 0 ? 3 : (r.fallos <= 2 ? 2 : 1),
+        alCerrar: function () { location.hash = "#/unidad/" + uid; }
+      });
+    });
+  }
 
   /* ---------------------------------------------------- rueda de palabras */
   function pintarRuedaMenu() {
@@ -1347,6 +1389,7 @@ opcion("progreso", "📊", "My Progress", Store.totalStars() + " ⭐ of " + Stor
     if ((m = hash.match(/^#\/traza\/(\d+)/))) { pintarTraza(m[1]); return; }
     if (hash.indexOf("#/traza") === 0) { pintarTrazaMenu(); return; }
     if (hash.indexOf("#/repaso") === 0) { pintarRepaso(); return; }
+    if ((m = hash.match(/^#\/cuento\/([\d.]+)/))) { pintarCuento(m[1]); return; }
     if ((m = hash.match(/^#\/domino\/(\d+)/))) { pintarDomino(m[1]); return; }
     if (hash.indexOf("#/domino") === 0) { pintarDominoMenu(); return; }
     if ((m = hash.match(/^#\/busca\/(\d+)/))) { pintarBusca(m[1]); return; }

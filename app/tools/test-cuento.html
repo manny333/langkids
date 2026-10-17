@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Story test</title>
+<style>body{font:14px/1.4 system-ui,sans-serif;margin:0;padding:12px;background:#faf7f0}
+#zona{width:900px;height:520px;display:flex}
+pre{background:#fff;border:1px solid #e6ddc9;border-radius:10px;padding:10px;margin-top:12px}</style></head><body>
+<div id="zona"></div><pre id="out">running…</pre>
+<script src="../www/content/lessons.js"></script>
+<script src="../www/js/cuento.js"></script>
+<script>
+(function () {
+  var log = [];
+  function ok(n, c, e) { log.push((c ? "OK    " : "FALLO ") + n + (e ? "   (" + e + ")" : "")); }
+  try {
+    var cuento = {
+      titulo: "Test story",
+      escenas: [
+        { texto: "Tom says hello.", palabras: ["hello", "boy"] },
+        { texto: "Tom is happy.", palabras: ["happy", "boy"] }
+      ],
+      preguntas: [ { palabra: "happy", opciones: ["happy", "hello", "boy"] } ]
+    };
+    var cont = document.getElementById("zona");
+    var fin = null;
+    var j = Cuento.montar(cont, { cuento: cuento }, function (r) { fin = r; });
+
+    ok("se monta el cuento", !!j);
+    ok("empieza en la pagina 1", j.escena() === 0);
+    ok("hay frase", cont.querySelectorAll(".cuento-texto").length === 1);
+    ok("hay fichas de palabras", cont.querySelectorAll(".cuento-ficha").length === 2);
+    ok("no hay preguntas aun", j.enPreguntas() === false);
+
+    j.siguiente();
+    setTimeout(function () {
+      ok("avanza a la pagina 2", j.escena() === 1, "escena=" + j.escena());
+      j.siguiente();
+      setTimeout(function () {
+        ok("pasa a las preguntas", j.enPreguntas() === true);
+        var opciones = [].slice.call(cont.querySelectorAll(".cuento-opcion"));
+        ok("tres opciones", opciones.length === 3, "n=" + opciones.length);
+        var buena = opciones.filter(function (o) { return o.dataset.palabra === "happy"; })[0];
+        ok("la respuesta correcta esta entre las opciones", !!buena);
+        if (buena) { buena.click(); }
+        setTimeout(function () {
+          ok("termina el cuento", !!fin, fin ? JSON.stringify(fin) : "sin final");
+          ok("cuenta el acierto", fin && fin.aciertos === 1);
+          var fallos = log.filter(function (l) { return l.indexOf("FALLO") === 0; }).length;
+          log.push("");
+          log.push(fallos ? ("RESULT: " + fallos + " fallo(s)") : "RESULT: ALL OK");
+          document.getElementById("out").textContent = log.join("\n");
+        }, 1200);
+      }, 300);
+    }, 300);
+    return;
+  } catch (e) { log.push("EXCEPCIÓN: " + e.message); }
+  document.getElementById("out").textContent = log.join("\n");
+})();
+</script></body></html>
