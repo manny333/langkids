@@ -1572,3 +1572,37 @@ body.modo-pintura #screen { max-width: none; overflow: hidden; padding: 0 !impor
 /* el texto y las fichas van juntos, centrados en la página */
 .cuento-tira { margin-top: 0; }
 .cuento-pagina { justify-content: center; gap: 20px; }
+
+/* ==========================================================================
+   Ajuste para pantallas bajas (tablet en horizontal con barra de tareas)
+   ========================================================================== */
+#screen.pantalla-actividad { overflow-y: auto; }
+
+@media (max-height: 700px) {
+  .flash-card { padding: 14px 14px; margin-bottom: 10px; border-radius: 24px; }
+  .flash-card .big-emoji { width: 128px; height: 128px; font-size: 74px; border-radius: 30px; }
+  .flash-card .word { font-size: 34px; margin-top: 6px; }
+  .flash-card .speak { margin-top: 8px; }
+  .big-btn { padding-top: 12px; padding-bottom: 12px; }
+  #screen.pantalla-actividad { padding: 6px 12px 8px; }
+  .act-title { font-size: 22px; margin: 2px 0 6px; }
+  .act-head .step { font-size: 13px; }
+  .pares-grid { max-height: calc(100vh - 210px); }
+  .bar { height: 14px; }
+}
+
+@media (max-height: 560px) {
+  .flash-card .big-emoji { width: 100px; height: 100px; font-size: 58px; }
+  .flash-card .word { font-size: 28px; }
+  .pares-grid { max-height: calc(100vh - 180px); }
+}
+
+/* la ilustración de la tarjeta se ve entera, sin recortes */
+.flash-card .big-emoji img, .big-emoji img {
+  object-fit: contain; padding: 6px; box-sizing: border-box;
+}
+
+/* la rejilla de parejas usa todo el alto disponible */
+.pares-grid { flex: 0 0 auto; align-self: stretch; max-height: none;
+  height: calc(100vh - 240px); min-height: 260px; }
+@media (max-height: 700px) { .pares-grid { height: calc(100vh - 200px); } }
